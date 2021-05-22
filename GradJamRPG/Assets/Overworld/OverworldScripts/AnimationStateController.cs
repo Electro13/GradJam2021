@@ -22,7 +22,18 @@ public class AnimationStateController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool interactKey = (Input.GetKeyDown("e"));
 
+        if (interactKey)
+        {
+            anim.SetBool("attack", true);
+
+        }
+
+        if (!interactKey)
+        {
+            anim.SetBool("attack", false);
+        }
         anim.SetFloat("speed", Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs((Input.GetAxis("Horizontal"))) );
 
 
