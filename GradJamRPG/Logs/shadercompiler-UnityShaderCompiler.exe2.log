@@ -6,6 +6,7 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data', plugins p
 Cmd: initializeCompiler
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 
@@ -14,6 +15,8 @@ Cmd: initializeCompiler
 >>>>>>> c294812302a54b60b385499315080e962cbcb298
 >>>>>>> Stashed changes
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 Cmd: shutdown
