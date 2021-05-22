@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/BattleTest.unity
+=======
 - path: Assets/Scenes/OverworldTest.unity
+>>>>>>> 56d16edee82036058d731173179f18bf05206c0f
   isLoaded: 1
   isActive: 1
   isSubScene: 0
