@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/MainMenu.unity
+=======
+<<<<<<< HEAD
+- path: Assets/AI Overworld/AI Testing.unity
+=======
+- path: Assets/Scenes/MainMenu.unity
+>>>>>>> c294812302a54b60b385499315080e962cbcb298
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
