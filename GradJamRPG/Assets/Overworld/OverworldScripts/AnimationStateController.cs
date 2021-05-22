@@ -6,6 +6,7 @@ public class AnimationStateController : MonoBehaviour
 {
 
     public Animator anim;
+    public GameObject weapon;
 
 
     // Start is called before the first frame update
@@ -27,12 +28,21 @@ public class AnimationStateController : MonoBehaviour
         if (interactKey)
         {
             anim.SetBool("attack", true);
-
         }
 
         if (!interactKey)
         {
             anim.SetBool("attack", false);
+        }
+
+        void enableWeapon()
+        {
+            weapon.GetComponent<Collider>().enabled = true;
+
+        }
+        void disableWeapon()
+        {
+            weapon.GetComponent<Collider>().enabled = false;
         }
         anim.SetFloat("speed", Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs((Input.GetAxis("Horizontal"))) );
 
