@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyStats : MonoBehaviour
 {
     public int maxHP;
-    private int currentHP;
+    public int currentHP;
     public bool isDead = false;
     PlayerStats player;
 

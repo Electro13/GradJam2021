@@ -30,7 +30,6 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator SetupBattle()
     {
-
         //Get the  stats of the fighters, find them by tag and get their statistics component.
         playerStats = GameObject.FindWithTag("Player").GetComponent<Player_Battle>();
         enemyStats = GameObject.FindWithTag("Enemy").GetComponent<Enemy_Battle>();

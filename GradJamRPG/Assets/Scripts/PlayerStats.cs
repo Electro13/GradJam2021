@@ -28,6 +28,12 @@ public class PlayerStats : MonoBehaviour
     public ATTACKTYPE attackType;
     public STATUSEFFECTS currentEffect;
 
+    public Animator animator;
+
+    //Ex if 1st skill is Spin move
+    //usableSkills[0] = 5 or SKILLS.SpinMove
+    public int[] usableSkills;
+
     EnemyStats enemy;
    // Weapon currentWeapon;
 
@@ -77,22 +83,17 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public bool  Attack (ATTACKTYPE attackType)
+    public bool  Attack (ATTACKTYPE attackType, EnemyStats target)
     {
         if (canAttack)
         {
-            // animation 
-            switch (skills)
-            {
-                case SKILLS.DoubleStrike:
-                    // call double strike animation
-                    break;
-            }
-
             switch (attackType)
             {
                 case ATTACKTYPE.single:
-                    enemy = GameObject.FindWithTag("Enemy").GetComponent<EnemyStats>();
+                    //enemy = GameObject.FindWithTag("Enemy").GetComponent<EnemyStats>();
+                    target.TakeDamage(strength);
+
+                    animator.SetTrigger("attack");
                     /*currentWeapon = currentWeapon.GetComponent<Weapon>();
                     enemy.TakeDamage(currentWeapon.damage + strength + heartRate);*/
                     break;
@@ -108,6 +109,30 @@ public class PlayerStats : MonoBehaviour
         {
             return false;
         }
+    }
+
+    public IEnumerator Skill(SKILLS skillType, EnemyStats target)
+    {
+        if (canAttack)
+        {
+            // animation 
+            switch (skillType)
+            {
+                case SKILLS.DoubleStrike:
+                    // call double strike animation
+
+                    //For now attack twice
+                    target.TakeDamage(strength);
+                    animator.SetTrigger("attack");
+
+                    yield return new WaitForSeconds(0.8f);
+                    target.TakeDamage(strength);
+                    animator.SetTrigger("attack");
+                    break;
+            }
+        }
+
+        yield return null;
     }
 
     // change status effect (recieved from enemy)
