@@ -10,16 +10,10 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
  */
 public class BattleSystem : MonoBehaviour
 {
-
-
-
-
-
-
     public Text dialogueText;
 
-    PlayerStats playerStats;
-    EnemyStats enemyStats;
+    Player_Battle playerStats;
+    Enemy_Battle enemyStats;
 
 
     // Start is called before the first frame update
@@ -32,20 +26,18 @@ public class BattleSystem : MonoBehaviour
 
         // Turn base loop, continues until executing is completed (Battle is over)
         StartCoroutine(SetupBattle());
-
-
     }
 
     IEnumerator SetupBattle()
     {
 
         //Get the  stats of the fighters, find them by tag and get their statistics component.
-        playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
-        enemyStats = GameObject.FindWithTag("Enemy").GetComponent<EnemyStats>();
+        playerStats = GameObject.FindWithTag("Player").GetComponent<Player_Battle>();
+        enemyStats = GameObject.FindWithTag("Enemy").GetComponent<Enemy_Battle>();
         //Update the battle message.
         dialogueText.text = "A new foe has appeared!";
 
-   
+
         //Wait 2 seconds, and proceed to next sequence (Enumeration). Also updating current state.
         yield return new WaitForSeconds(2f);
         state = BattleState.PLAYERTURN;
@@ -53,7 +45,7 @@ public class BattleSystem : MonoBehaviour
     }
     void PlayerTurn()
     {
-      
+
         dialogueText.text = "Choose an action:";
 
     }
@@ -86,9 +78,8 @@ public class BattleSystem : MonoBehaviour
         playerStats.CheckStatusEffects();
         Debug.Log(playerStats.canAttack);
         //If the player can attack due to a status update
-        if (playerStats.Attack(PlayerStats.ATTACKTYPE.single))
+        if (playerStats.Attack(Player_Battle.ATTACKTYPE.single))
         {
-            
             //Update HUD etc...
             dialogueText.text = "Attack landed";
             yield return new WaitForSeconds(2f);
@@ -107,17 +98,15 @@ public class BattleSystem : MonoBehaviour
         else
         {
             // Player's can not attack due to a status update, check the current players status update.
-            dialogueText.text = "Player's turn has ended due to " + playerStats.currentEffect+"!";
+            dialogueText.text = "Player's turn has ended due to " + playerStats.currentEffect + "!";
             yield return new WaitForSeconds(2f);
             state = BattleState.ENEMYTURN;
             StartCoroutine(EnemyTurn());
         }
-       
-
     }
+
     void EndBattle()
     {
-
         if (state == BattleState.WON)
         {
             dialogueText.text = "You won the battle!";
@@ -125,7 +114,7 @@ public class BattleSystem : MonoBehaviour
         else if (state == BattleState.LOST)
         {
             dialogueText.text = "You were defeated.";
-            
+
         }
     }
     public void OnAttackButton()
@@ -135,8 +124,4 @@ public class BattleSystem : MonoBehaviour
 
         StartCoroutine(PlayerAttack());
     }
-
-
-
-
 }

@@ -490,3 +490,148 @@ Received Import Request.
 Start importing Assets/AI Overworld/Dirt.mat using Guid(2d17e7eebd5fab34abafd3a0ff0264f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823edbee19bac4ee02e1f29c65ac60a7') in 0.007843 seconds
   Import took 0.009435 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 71.405086 seconds.
+  path: Assets/Overworld/OverworldScripts
+  artifactKey: Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts using Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c06109a31e09c614fc667566eefdf') in 0.005084 seconds
+  Import took 0.006787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/Overworld/OverworldScripts
+  artifactKey: Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts using Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c06109a31e09c614fc667566eefdf') in 0.001785 seconds
+  Import took 0.003403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 331.273742 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(49b6a50d5efbfcb49969efcc674b40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(49b6a50d5efbfcb49969efcc674b40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a47de373a151a4f098009c7687def') in 0.001757 seconds
+  Import took 0.003725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.869608 seconds.
+  path: Assets/Scripts/BattleSystem.cs
+  artifactKey: Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleSystem.cs using Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a1b9da55e0a7a300f64a63ad5bba60') in 0.001920 seconds
+  Import took 0.003550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/Scripts/BattleSystem.cs
+  artifactKey: Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleSystem.cs using Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a1b9da55e0a7a300f64a63ad5bba60') in 0.001633 seconds
+  Import took 0.002987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.168985 seconds.
+  path: Assets/Scripts/Player_Battle.cs
+  artifactKey: Guid(96ad44c34a8bd1044bb2c899517c8dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Battle.cs using Guid(96ad44c34a8bd1044bb2c899517c8dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef0c7c4819ccbcd9a926cfb41408bbe') in 0.004989 seconds
+  Import took 0.006712 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000811 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000277679EEF20 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000277606E1D50 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027767563020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027766877010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002776730C200 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027760FC2050 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027766B33000 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027767563020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027766546470 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027760FC2050 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002776527D040 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027764B76DD0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 1.376500 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.191400 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000277679EEF20 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027765957E40 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027767563020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027769094030 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027769024040 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027766C85020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000277608C1830 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002776758D1A0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000277674A2010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027766C85020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027765673410 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027764B76DD0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 1.230400 ms (FindLiveObjects: 0.113600 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.077900 ms  DeleteObjects: 0.010100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.736334 seconds.
+  path: Assets/Scripts/BattleSystem.cs
+  artifactKey: Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattleSystem.cs using Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678eb498b273839b4f41a3a272075d4c') in 0.003293 seconds
+  Import took 0.004900 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
