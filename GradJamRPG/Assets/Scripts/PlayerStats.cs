@@ -120,14 +120,17 @@ public class PlayerStats : MonoBehaviour
             {
                 case SKILLS.DoubleStrike:
                     // call double strike animation
+                    animator.SetTrigger("doubleStrike");
 
                     //For now attack twice
+                    yield return new WaitForSeconds(0.5f);
                     target.TakeDamage(strength);
-                    animator.SetTrigger("attack");
+                    print("hit");
 
-                    yield return new WaitForSeconds(0.8f);
+
+                    yield return new WaitForSeconds(0.3f);
                     target.TakeDamage(strength);
-                    animator.SetTrigger("attack");
+                    print("hit");
                     break;
             }
         }
