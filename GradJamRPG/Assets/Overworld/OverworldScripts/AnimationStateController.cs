@@ -26,9 +26,14 @@ public class AnimationStateController : MonoBehaviour
 
         if (interactKey)
         {
-            anim.SetTrigger("attack");
+            anim.SetBool("attack", true);
+
         }
 
+        if (!interactKey)
+        {
+            anim.SetBool("attack", false);
+        }
         anim.SetFloat("speed", Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs((Input.GetAxis("Horizontal"))) );
 
 
