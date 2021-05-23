@@ -793,21 +793,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da671d23811faf4096c154597533712, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  currentHealth: 0
+  maxHealth: 200
+  currentHealth: 200
   isDead: 0
-  heartRate: 0
   strength: 2
+  potentialStrength: 0
   canAttack: 1
+  attackType: 0
+  animator: {fileID: 575485959}
   endTurn: 0
   canDoubleStrike: 0
   canFireball: 0
   canLightningBolt: 0
   canSpinMove: 0
+  heartRate: 0
   skills: 0
-  attackType: 0
-  currentEffect: 0
-  animator: {fileID: 575485959}
   usableSkills: 00000000000000000000000000000000
 --- !u!4 &518312255
 Transform:
@@ -1589,6 +1589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 692839907}
+  playerFirstTurn: 0
   state: 0
   playerPosition: {fileID: 2095864312}
   enemyPositions:
@@ -1607,6 +1608,7 @@ MonoBehaviour:
   - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
   enemies: []
   turnOrder: []
+  roundNumber: 0
 --- !u!1 &1398667452
 GameObject:
   m_ObjectHideFlags: 0

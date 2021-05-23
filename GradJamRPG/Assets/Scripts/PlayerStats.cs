@@ -1,21 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+public class PlayerStats : Entity
 {
-    // variables
-    public int maxHealth;
-    public int currentHealth;
-    public bool isDead;
-    // used for taking damage (damage multiplier)
-    public int heartRate;
-    public int strength = 1;
-
-    public bool canAttack = true;
-
-    // ending turn
-    public bool endTurn = false;
+    public bool endTurn;
 
     // unlocked moves
     public bool canDoubleStrike = false;
@@ -23,67 +11,58 @@ public class PlayerStats : MonoBehaviour
     public bool canLightningBolt = false;
     public bool canSpinMove = false;
 
-    // holding skills and attack type
-    public SKILLS skills;
-    public ATTACKTYPE attackType;
-    public STATUSEFFECTS currentEffect;
+    public int heartRate;
 
-    public Animator animator;
+    // holding skills
+    public SKILLS skills;
 
     //Ex if 1st skill is Spin move
     //usableSkills[0] = 5 or SKILLS.SpinMove
     public int[] usableSkills;
 
-    EnemyStats enemy;
-   // Weapon currentWeapon;
+    //public Weapon currentWeapon;
 
-    void Start()
+
+    protected override void Start()
     {
-        heartRate = 1;
-        currentHealth = maxHealth;
-        currentEffect = STATUSEFFECTS.None;
-    }
+        base.Start();
 
-    void Update()
-    {
-        if (currentHealth <= 0)
-        {
-            // Gameover UI
-        }
-
-        CheckStatusEffects();
-        // attack window 
+        heartRate = 80;
+        currentHealth = maxHealth; //Will equal player prefs soon
     }
 
     public void CheckStatusEffects()
     {
-        switch (currentEffect)
+        foreach (Effect effect in currentEffects)
         {
-            case STATUSEFFECTS.None:
-                break;
+            switch (effect.status)
+            {
+                case STATUSEFFECTS.None:
+                    break;
 
-            case STATUSEFFECTS.Narcolepsy:
-                // debug youre asleep!
-                canAttack = false;
-                endTurn = true;
-                break;
+                case STATUSEFFECTS.Narcolepsy:
+                    // debug youre asleep!
+                    canAttack = false;
+                    break;
 
-            case STATUSEFFECTS.RestlessLeg:
-                canAttack = false;
-                endTurn = true;
-                break;
+                case STATUSEFFECTS.RestlessLeg:
+                    canAttack = false;
+                    break;
 
-            case STATUSEFFECTS.NightmareDisorder:
-                heartRate = 10;
-                break;
+                case STATUSEFFECTS.NightmareDisorder:
+                    heartRate = 10;
+                    break;
 
-            case STATUSEFFECTS.Insomnia:
-
-                break;
+                case STATUSEFFECTS.Insomnia:
+                    break;
+                case STATUSEFFECTS.Paralyzed:
+                    canAttack = false;
+                    break;
+            }
         }
     }
 
-    public bool  Attack (ATTACKTYPE attackType, EnemyStats target)
+    public bool Attack(ATTACKTYPE attackType, EnemyStats target)
     {
         if (canAttack)
         {
@@ -111,7 +90,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public IEnumerator Skill(SKILLS skillType, EnemyStats target)
+    public IEnumerator Skill(SKILLS skillType, Entity target)
     {
         if (canAttack)
         {
@@ -121,16 +100,21 @@ public class PlayerStats : MonoBehaviour
                 case SKILLS.DoubleStrike:
                     // call double strike animation
                     animator.SetTrigger("doubleStrike");
-
-                    //For now attack twice
+                    //Timed with the animation - 
                     yield return new WaitForSeconds(0.5f);
                     target.TakeDamage(strength);
-                    print("hit");
-
-
                     yield return new WaitForSeconds(0.3f);
                     target.TakeDamage(strength);
-                    print("hit");
+                    break;
+
+                case SKILLS.ShoulderBash:
+                    animator.SetTrigger("shoulderBash");
+                    //Apply stun effect for 3 turns maybe do damage??
+                    target.GiveStatusEffect(STATUSEFFECTS.Paralyzed, 3);
+                    break;
+                case SKILLS.FireBall:
+                    break;
+                case SKILLS.LightningBolt:
                     break;
             }
         }
@@ -138,35 +122,12 @@ public class PlayerStats : MonoBehaviour
         yield return null;
     }
 
-    // change status effect (recieved from enemy)
-    public void ReceiveStatusEffect(string s)
-    {
-        if (s == "Narcolepsy")
-        {
-            currentEffect = STATUSEFFECTS.Narcolepsy;
-        }
-        else if (s == "RestlessLeg")
-        {
-            currentEffect = STATUSEFFECTS.RestlessLeg;
-        }
-        else if (s == "NightmareDisorder")
-        {
-            currentEffect = STATUSEFFECTS.NightmareDisorder;
-        }
-        else if (s == "Insomnia")
-        {
-            currentEffect = STATUSEFFECTS.Insomnia;
-        }
-        else
-        {
-            currentEffect = STATUSEFFECTS.None;
-        }
+   
 
-    }
-
-   public void TakeDamage(int dmg)
+    //Increase our Heart Rate when taking damage
+    public override void TakeDamage(int dmg)
     {
-        currentHealth -= (dmg + heartRate);
+        currentHealth += dmg;
         if (currentHealth <= 0)
         {
             Die();
@@ -176,25 +137,6 @@ public class PlayerStats : MonoBehaviour
     private void Die()
     {
         isDead = true;
-    }
-
-    public int GetCurrentHP()
-    {
-        return currentHealth;
-    }
-
-    public int GetMaxtHP()
-    {
-        return maxHealth;
-    }
-
-    public enum STATUSEFFECTS
-    {
-        None,
-        Narcolepsy,
-        RestlessLeg,
-        NightmareDisorder,
-        Insomnia
     }
 
     public enum SKILLS
@@ -207,11 +149,5 @@ public class PlayerStats : MonoBehaviour
         LightningBolt,
         Counter,
         Lullaby
-    }
-
-    public enum ATTACKTYPE
-    {
-        single,
-        aoe
     }
 }

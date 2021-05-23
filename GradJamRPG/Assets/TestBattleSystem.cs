@@ -13,7 +13,7 @@ public class TestBattleSystem : MonoBehaviour
     public Text dialogueText;
 
     PlayerStats playerStats;
-    EnemyStats enemyStats;
+    public bool playerFirstTurn;
 
     public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
     // Start is called before the first frame update
@@ -29,12 +29,12 @@ public class TestBattleSystem : MonoBehaviour
 
 
     public List<GameObject> turnOrder;
-
+    public int roundNumber;
 
     void Start()
     {
         state = BattleState.START;
-
+        roundNumber = 0;
         
         //Add enemies to scene and store their values
         //for(int i = 0; i < enemyPrefabs.Length; i++)
@@ -50,8 +50,6 @@ public class TestBattleSystem : MonoBehaviour
 
         // Turn base loop, continues until executing is completed (Battle is over)
         StartCoroutine(SetupBattle());
-
-
     }
 
     IEnumerator SetupBattle()
@@ -71,42 +69,118 @@ public class TestBattleSystem : MonoBehaviour
 
         //Wait 2 seconds, and proceed to next sequence (Enumeration). Also updating current state.
         yield return new WaitForSeconds(2f);
-        state = BattleState.PLAYERTURN;
-        PlayerTurn();
-    }
-    void PlayerTurn()
-    {
 
-        dialogueText.text = "Choose an action:";
-
-    }
-    IEnumerator EnemyTurn()
-    {
-
-        dialogueText.text = "Opponent's Turn!";
-        yield return new WaitForSeconds(1f);
-        dialogueText.text = "Opponent used Basic Attack #1";
-        yield return new WaitForSeconds(2f);
-        // Enemies currently do not have status effects to hinder their attacks.
-
-        enemyStats.Attack(10);
-        if (playerStats.isDead)
+        if (playerFirstTurn)
         {
-            state = BattleState.LOST;
-            //End the battle the player has lost
-            EndBattle();
+            state = BattleState.PLAYERTURN;
         }
         else
         {
-            state = BattleState.PLAYERTURN;
-            PlayerTurn();
+            state = BattleState.ENEMYTURN;
         }
 
+        StartCoroutine(CoreLoop());
     }
+
+
+    IEnumerator CoreLoop()
+    {
+        bool battling = true;
+        while (battling)
+        {
+            switch (state)
+            {
+                //Hanldes Player Turn
+                case BattleState.PLAYERTURN:
+                    //Show HUD
+                    bool win = false;
+                    playerStats.endTurn = false;
+                    dialogueText.text = "Choose an action:";
+
+                    playerStats.CheckStatusEffects();
+
+                    while (!playerStats.endTurn)
+                    {
+                        //Win the game if all enemies are dead
+                        if (enemies.Count < 0)
+                        {
+                            //need to break out of the while loop first
+                            win = true;
+                            break;
+                        }
+
+                        yield return null;
+                    }
+
+                    if (win)
+                    {
+                        state = BattleState.WON;
+                        break;
+                    }
+
+                    //If the player did not go first increase the round number
+                    if (!playerFirstTurn)
+                        roundNumber++;
+
+                    //Reduce all effects on the player
+                    playerStats.ReduceAllEffects();                    
+
+                    state = BattleState.ENEMYTURN;
+                    break;
+                
+                //Handles Enemy Turn
+                case BattleState.ENEMYTURN:
+                    int enemyNumber = 0;
+
+                    foreach (EnemyStats enemy in enemies)
+                    {
+                        dialogueText.text = "Opponent's Turn!";
+                        yield return new WaitForSeconds(1f);
+
+                        enemy.CheckStatusEffects();
+
+                        dialogueText.text = "Opponent used Basic Attack #1";                        
+                        Vector3 targetLocation = playerPosition.position + Vector3.right * 3f + Vector3.down * 0.96f;
+                        enemy.transform.position = targetLocation;
+
+                        //Attack animation
+                        playerStats.TakeDamage(enemy.potentialStrength);
+
+                        yield return new WaitForSeconds(1f);
+
+                        if (playerStats.isDead)
+                        {
+                            state = BattleState.LOST;
+                            //End the battle the player has lost
+                            EndBattle();
+                            break;
+                        }
+
+                        enemy.transform.position = enemyPositions[enemyNumber].position;
+                    }
+
+                    //Reduce all effects on enemies
+                    foreach (EnemyStats enemy in enemies)
+                    {
+                        enemy.ReduceAllEffects();
+                    }
+
+                    //Increase round number if the player went first
+                    if (playerFirstTurn)
+                        roundNumber++;
+
+                    state = BattleState.PLAYERTURN;
+                    break;
+                default:
+                    battling = false;
+                    break;
+            }
+        }
+    }
+
     IEnumerator PlayerAttack(PlayerStats.ATTACKTYPE attackType)
     {
         //Check the player's current status effect
-        playerStats.CheckStatusEffects();
         Debug.Log(playerStats.canAttack);
         //If the player can attack due to a status update
 
@@ -177,8 +251,8 @@ public class TestBattleSystem : MonoBehaviour
         dialogueText.text = "Attack landed";
         yield return new WaitForSeconds(2f);
 
-        state = BattleState.PLAYERTURN;
-        PlayerTurn();
+
+        EndPlayerTurn();
     }
 
     IEnumerator PlayerSkill(PlayerStats.SKILLS skillType)
@@ -258,8 +332,12 @@ public class TestBattleSystem : MonoBehaviour
         dialogueText.text = "Attack landed";
         yield return new WaitForSeconds(2f);
 
-        state = BattleState.PLAYERTURN;
-        PlayerTurn();
+        EndPlayerTurn();
+    }
+
+    void EndPlayerTurn()
+    {
+        playerStats.endTurn = true;
     }
 
     void EndBattle()
