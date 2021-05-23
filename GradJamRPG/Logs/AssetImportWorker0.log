@@ -102,3 +102,763 @@ Received Import Request.
 Start importing Assets/ThirdPersonPlayer.prefab using Guid(f5770e3718de5174faaccca3454f9a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6529b6aea2761b21585b91189b9828') in 0.084480 seconds
   Import took 0.086888 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 463.391573 seconds.
+  path: Assets/TestBattleSystem.cs
+  artifactKey: Guid(feb043da7dbc85343994d44f5bcbd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestBattleSystem.cs using Guid(feb043da7dbc85343994d44f5bcbd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2dd7199ed3a11620b2ad70c9c3b25') in 0.009935 seconds
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020879 seconds.
+  path: Assets/TestBattleSystem.cs
+  artifactKey: Guid(feb043da7dbc85343994d44f5bcbd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestBattleSystem.cs using Guid(feb043da7dbc85343994d44f5bcbd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2dd7199ed3a11620b2ad70c9c3b25') in 0.002637 seconds
+  Import took 0.005385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.221454 seconds.
+  path: Assets/Scenes/OverworldTest.unity
+  artifactKey: Guid(c570fee46138faa4e88d8bcae011cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OverworldTest.unity using Guid(c570fee46138faa4e88d8bcae011cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6357e9926a8635652daca5360fa1a300') in 0.009422 seconds
+  Import took 0.011810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.511324 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(ff74abae680568346973348c6a7b58b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(ff74abae680568346973348c6a7b58b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9056c83317957a1d6fa8f053fb171af1') in 0.009596 seconds
+  Import took 0.012230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 544.188089 seconds.
+  path: Assets/Overworld
+  artifactKey: Guid(e49adf7a2067bb24eb085a58a21bfd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld using Guid(e49adf7a2067bb24eb085a58a21bfd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c7e7d599855cb37e506fad6542fb3d') in 0.008884 seconds
+  Import took 0.011397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.491584 seconds.
+  path: Assets/Overworld/OverworldScripts
+  artifactKey: Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts using Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9109cb7ee750791e9d61a1c25818cd3c') in 0.008643 seconds
+  Import took 0.011116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.707838 seconds.
+  path: Assets/Overworld/Materials
+  artifactKey: Guid(ed4cb42f1a62c1d4fbda58b47bb74eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials using Guid(ed4cb42f1a62c1d4fbda58b47bb74eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5893c87ce80121f869be879fb42858') in 0.007416 seconds
+  Import took 0.009760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088021 seconds.
+  path: Assets/Overworld/Materials/Blue.mat
+  artifactKey: Guid(0c1f4ba504445c248872b680eaa2a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/Blue.mat using Guid(0c1f4ba504445c248872b680eaa2a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f428d7c4ad70aa0b7214d4d7edeae17') in 0.027345 seconds
+  Import took 0.030145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Overworld/Materials/T_GrassGround_normal.png
+  artifactKey: Guid(705e55332718a6a4fb498a1251398c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/T_GrassGround_normal.png using Guid(705e55332718a6a4fb498a1251398c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6280e1503a71d061eb953c098f5486a9') in 0.029142 seconds
+  Import took 0.031203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Overworld/Materials/T_GrassGround_roughness.png
+  artifactKey: Guid(c635b79915f45dc45afb8d67b39847a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/T_GrassGround_roughness.png using Guid(c635b79915f45dc45afb8d67b39847a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1321a2fbae14bb58d38db6a8f7cf8a1') in 0.013524 seconds
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Overworld/Materials/T_GrassGround_basecolor.png
+  artifactKey: Guid(e4d7a620153ab714cbd00db7b3a7a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/T_GrassGround_basecolor.png using Guid(e4d7a620153ab714cbd00db7b3a7a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef12eae85699aa5ab95bebebae2d69e') in 0.014060 seconds
+  Import took 0.016565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Overworld/Materials/T_GrassGround_height.png
+  artifactKey: Guid(60eec0b704ea8924b880e8bcb40b3dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/T_GrassGround_height.png using Guid(60eec0b704ea8924b880e8bcb40b3dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014457c46a39fccfd2b97288dca0e989') in 0.014240 seconds
+  Import took 0.016274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Overworld/Materials/RED.mat
+  artifactKey: Guid(544331b9515a13542a58222e6ebbec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/RED.mat using Guid(544331b9515a13542a58222e6ebbec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5e788ee2afca795fa1e06120923c0c') in 0.015609 seconds
+  Import took 0.018160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Overworld/Materials/T_GrassGround_ambientocclusion.png
+  artifactKey: Guid(c69aa97d9df74164fb2fd6de68ef42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/T_GrassGround_ambientocclusion.png using Guid(c69aa97d9df74164fb2fd6de68ef42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c331ab7bc8ecf4fb625e2019cf8ec7') in 0.013352 seconds
+  Import took 0.015456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Overworld/Materials/T_GrassGround_metallic.png
+  artifactKey: Guid(b93def4c8e367b840937b8ac14340171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/T_GrassGround_metallic.png using Guid(b93def4c8e367b840937b8ac14340171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2aa4e9d68cb2c19d39a39e0762bca0') in 0.018417 seconds
+  Import took 0.020660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.881575 seconds.
+  path: Assets/Overworld/Materials/GREEN.mat
+  artifactKey: Guid(422d47d062ba4a14fb73b6bb4483b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/GREEN.mat using Guid(422d47d062ba4a14fb73b6bb4483b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43938cf4af6c7813137d6880f486523') in 0.013021 seconds
+  Import took 0.015482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.963116 seconds.
+  path: Assets/Overworld/Materials/Grass.mat
+  artifactKey: Guid(e7c9ddd721501294298503a77e585cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/Grass.mat using Guid(e7c9ddd721501294298503a77e585cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce653eb1edd4adf2c207e4721247109f') in 0.011683 seconds
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.508278 seconds.
+  path: Assets/Overworld/Models & Animations
+  artifactKey: Guid(b475e64920c275249b06f9f8491e2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations using Guid(b475e64920c275249b06f9f8491e2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5327492df498ce308fd3fc7636e1a4d1') in 0.007417 seconds
+  Import took 0.009689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097815 seconds.
+  path: Assets/Overworld/Models & Animations/9c5086f4402e61b7bc348da6278ee49e.jpg
+  artifactKey: Guid(d4fb3c69988342c489025afa9e7b43de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/9c5086f4402e61b7bc348da6278ee49e.jpg using Guid(d4fb3c69988342c489025afa9e7b43de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167c790aac98105af046adb91888c665') in 0.014698 seconds
+  Import took 0.017273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Normal_OpenGL.png
+  artifactKey: Guid(ee6e1e5154cbe0c4ba4299ea7dbe53ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Normal_OpenGL.png using Guid(ee6e1e5154cbe0c4ba4299ea7dbe53ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18eedfe142246f54ef75b902cd9060') in 0.012512 seconds
+  Import took 0.014923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Metallic.png
+  artifactKey: Guid(39a13dd3b32952840b31c882d26088d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Metallic.png using Guid(39a13dd3b32952840b31c882d26088d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9522187bda23505335e34f3eebd9360') in 0.011385 seconds
+  Import took 0.013503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Overworld/Models & Animations/tree_01.fbx
+  artifactKey: Guid(cf57383c836689944828ed32374703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_01.fbx using Guid(cf57383c836689944828ed32374703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e086b069c09f14f3f5c9f3b32ee11aa2') in 0.043694 seconds
+  Import took 0.046006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Base_Color.png
+  artifactKey: Guid(f2aed4d72f62dbb4c9041e80725f94a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Base_Color.png using Guid(f2aed4d72f62dbb4c9041e80725f94a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd2dcb1f70c61245f470cdc204e12b6') in 0.013931 seconds
+  Import took 0.016527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Base_Color.png
+  artifactKey: Guid(3a3969750b3ddfc4c97b1a262741b353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Base_Color.png using Guid(3a3969750b3ddfc4c97b1a262741b353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549f30a63d63666edab55daef07c0e07') in 0.011185 seconds
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_metallic.png
+  artifactKey: Guid(5bb0ec786fc345b4eaa4badf3086a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_metallic.png using Guid(5bb0ec786fc345b4eaa4badf3086a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b247ae8bedad874829abb519eca7da') in 0.015113 seconds
+  Import took 0.017208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Normal_OpenGL.png
+  artifactKey: Guid(1e0b0c9cb340e7347bd3a4f49fea72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Normal_OpenGL.png using Guid(1e0b0c9cb340e7347bd3a4f49fea72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48274b1b8d78435ac9265ffd7626fdbf') in 0.010901 seconds
+  Import took 0.012938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet.fbx
+  artifactKey: Guid(f7cc9833060a84c42b7723040e36f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet.fbx using Guid(f7cc9833060a84c42b7723040e36f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd7c11e5a6fb4f0775ca529c704a5a7') in 0.027293 seconds
+  Import took 0.029436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinWalk.fbx
+  artifactKey: Guid(c22f4e98a8e75c6459f7f311b473cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinWalk.fbx using Guid(c22f4e98a8e75c6459f7f311b473cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b85f665f57ac718ab6e2b3274f4e2f8') in 0.092034 seconds
+  Import took 0.094418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Metallic.png
+  artifactKey: Guid(09c9ede72e4feb74d9d675b26a2a4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Metallic.png using Guid(09c9ede72e4feb74d9d675b26a2a4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db9eca89b942612fc0d2055acd096c1') in 0.012667 seconds
+  Import took 0.014771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_basecolor.png
+  artifactKey: Guid(f30d9b99bb8b8d645a4f9867b986ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_basecolor.png using Guid(f30d9b99bb8b8d645a4f9867b986ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9049cc031fe08c31c76621a0bacd1e4a') in 0.013084 seconds
+  Import took 0.015718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Glossiness 1.png
+  artifactKey: Guid(97d6bbc60bd4dd74a8c515546fe4fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Glossiness 1.png using Guid(97d6bbc60bd4dd74a8c515546fe4fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37b86ec99950f61d6c4f4355cbac270') in 0.017549 seconds
+  Import took 0.019614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Overworld/Models & Animations/Chair.fbx
+  artifactKey: Guid(484f3d6f5df3e5d468925d9f82a7f1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Chair.fbx using Guid(484f3d6f5df3e5d468925d9f82a7f1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea006528bd6b7670041c57c5d9609423') in 0.031386 seconds
+  Import took 0.033751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinRun.fbx
+  artifactKey: Guid(ff125c5c177588f419fbe86113b00ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinRun.fbx using Guid(ff125c5c177588f419fbe86113b00ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640617fa490e76aa44f283af455eefd1') in 0.037227 seconds
+  Import took 0.039896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Overworld/Models & Animations/goblin_diffuse.png
+  artifactKey: Guid(a21509165a82c9a4399cc9bdd5d61940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/goblin_diffuse.png using Guid(a21509165a82c9a4399cc9bdd5d61940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef7ee1b1e7cd39eec6157b0d6d81e11') in 0.014155 seconds
+  Import took 0.016458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Height.png
+  artifactKey: Guid(ef720ad9ff1239a498a01aaa3363611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Height.png using Guid(ef720ad9ff1239a498a01aaa3363611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad3c5b5949077a26cc4e0599ed13c04') in 0.012547 seconds
+  Import took 0.014716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_height.png
+  artifactKey: Guid(b5b6fc5b29f50db4085771c59e0faa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_height.png using Guid(b5b6fc5b29f50db4085771c59e0faa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac55937c915436bf08a24212aafcd559') in 0.012483 seconds
+  Import took 0.014654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Overworld/Models & Animations/tree_lambert2_AlbedoTransparency.png
+  artifactKey: Guid(8217f69f83b58424a8856ca93872e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_lambert2_AlbedoTransparency.png using Guid(8217f69f83b58424a8856ca93872e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9d3136653912debbda9101f442da73') in 0.013725 seconds
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_normal.png
+  artifactKey: Guid(fa02c82ca2152864fa4750db05dbebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_normal.png using Guid(fa02c82ca2152864fa4750db05dbebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3860adc64593aa56eca684f9b77f88') in 0.014117 seconds
+  Import took 0.016468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Specular 1.png
+  artifactKey: Guid(419bb976f72fe2e4abfd30844a4807dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Specular 1.png using Guid(419bb976f72fe2e4abfd30844a4807dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090855edd22447336df6b7ad2af66550') in 0.015903 seconds
+  Import took 0.017985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_shattered_thick.fbx
+  artifactKey: Guid(42e7f351bb53803409f3f81536b288a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_shattered_thick.fbx using Guid(42e7f351bb53803409f3f81536b288a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94ce4c0d63c07f2c202ef415061a587') in 0.055520 seconds
+  Import took 0.057714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Height.png
+  artifactKey: Guid(b1f7008c18cace848b886c2870f3ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Height.png using Guid(b1f7008c18cace848b886c2870f3ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b76b7293c1caaa334cdaf348fdb0205') in 0.010118 seconds
+  Import took 0.012238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Metallic.png
+  artifactKey: Guid(ce9f06e1ef5065943b290e91b34f8ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Metallic.png using Guid(ce9f06e1ef5065943b290e91b34f8ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd6061704fe558e5ae28daf03264ac1') in 0.015001 seconds
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Diffuse 1.png
+  artifactKey: Guid(d6660a96188b7bb4486757edece28183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Diffuse 1.png using Guid(d6660a96188b7bb4486757edece28183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44906d2a036db4df047255e43ff67bc1') in 0.015178 seconds
+  Import took 0.017424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinRig.fbx
+  artifactKey: Guid(2b2cd970e8d505444b8eeb22a69a8d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinRig.fbx using Guid(2b2cd970e8d505444b8eeb22a69a8d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadf3cd27cd7018d4f59ad58514629f3') in 0.049041 seconds
+  Import took 0.051663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Overworld/Models & Animations/Shelf.fbx
+  artifactKey: Guid(14b7c407baf1f7f4486aa2f0605ac9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Shelf.fbx using Guid(14b7c407baf1f7f4486aa2f0605ac9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75fd295791257dfd05e0d3c4624895f') in 0.018746 seconds
+  Import took 0.020874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Overworld/Models & Animations/MainBossCharacterEpicForce.fbx
+  artifactKey: Guid(ed2c74b8c600e454bbfcedc0293ce73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/MainBossCharacterEpicForce.fbx using Guid(ed2c74b8c600e454bbfcedc0293ce73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6812be6a0d632799c2a2a815318c0884') in 0.055124 seconds
+  Import took 0.057844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Base_Color.png
+  artifactKey: Guid(be27e9b186799de48a44eca869ec5631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Base_Color.png using Guid(be27e9b186799de48a44eca869ec5631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896524bac4a0a4c6c24c6d1f6133f0c6') in 0.010879 seconds
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinBattleDoubleAttack.fbx
+  artifactKey: Guid(3b622305982fa9944a7f85f5acff9c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinBattleDoubleAttack.fbx using Guid(3b622305982fa9944a7f85f5acff9c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7ac562f8f4b9df25a3318385901382') in 0.039420 seconds
+  Import took 0.042227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinIdle.fbx
+  artifactKey: Guid(091d0bd4f14d5534eae96182fde2df45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinIdle.fbx using Guid(091d0bd4f14d5534eae96182fde2df45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88622fab01cfa51e8548bf7c07a199c5') in 0.031043 seconds
+  Import took 0.033697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Overworld/Models & Animations/Coin.fbx
+  artifactKey: Guid(4fa81533432595844acae5770fde2d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Coin.fbx using Guid(4fa81533432595844acae5770fde2d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0596017264d769421b1aeb8e76e8e41') in 0.019988 seconds
+  Import took 0.022417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Overworld/Models & Animations/goblin_normal.png
+  artifactKey: Guid(1f2fffe491467ac40b025a8ae7913960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/goblin_normal.png using Guid(1f2fffe491467ac40b025a8ae7913960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a2fcfc01fc3fe07bbb10c1f47e7e84') in 0.018483 seconds
+  Import took 0.020935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Overworld/Models & Animations/Closet.fbx
+  artifactKey: Guid(509e8e476d59b144f8546a9f85a7ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Closet.fbx using Guid(509e8e476d59b144f8546a9f85a7ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceef414b01b1df266da73d772a67d8f') in 0.026104 seconds
+  Import took 0.028226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Metallic.png
+  artifactKey: Guid(c528998ed905159458271dc5d1bd4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Metallic.png using Guid(c528998ed905159458271dc5d1bd4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d0b361937ee44056f1be5930f42a5b') in 0.011426 seconds
+  Import took 0.013525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Overworld/Models & Animations/Sword.fbx
+  artifactKey: Guid(a57cb2c4105c7ff4e9240938ebcf5cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Sword.fbx using Guid(a57cb2c4105c7ff4e9240938ebcf5cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a499b60ef9befc3d88484c7fd4a3c77') in 0.025580 seconds
+  Import took 0.028015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinBattleBash.fbx
+  artifactKey: Guid(c0d0612ac1535b641bae8213eca1b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinBattleBash.fbx using Guid(c0d0612ac1535b641bae8213eca1b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a570251c8aab848b8dc1a220abbf75fe') in 0.036625 seconds
+  Import took 0.039093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Height.png
+  artifactKey: Guid(aa9f0464dda845b4eb20d83ab5bdc2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Height.png using Guid(aa9f0464dda845b4eb20d83ab5bdc2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c7a908ebefb3813216c512fb6a939d') in 0.011931 seconds
+  Import took 0.014534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinAttack.fbx
+  artifactKey: Guid(7d46387f9a13b404cb67cdebf307d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinAttack.fbx using Guid(7d46387f9a13b404cb67cdebf307d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a2cb54f8d9c20f60e7fbb89bfa52ea') in 0.030172 seconds
+  Import took 0.032832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Height.png
+  artifactKey: Guid(473534f1448fd764cb730341f451f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Height.png using Guid(473534f1448fd764cb730341f451f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cbf7334faca2aa8b9049a13d33207b') in 0.010736 seconds
+  Import took 0.013201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Overworld/Models & Animations/Desk.fbx
+  artifactKey: Guid(a2bd9b5d462766a48940db9a5b5a6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Desk.fbx using Guid(a2bd9b5d462766a48940db9a5b5a6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861579ed2640a8c06d204117d61dfe50') in 0.022586 seconds
+  Import took 0.024832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Overworld/Models & Animations/goblin_specular.png
+  artifactKey: Guid(9e6a2801ab42c374980efccbccb01b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/goblin_specular.png using Guid(9e6a2801ab42c374980efccbccb01b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c51ae49c8c86fb823707fbf2fc4269') in 0.012474 seconds
+  Import took 0.014615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Overworld/Models & Animations/Room.fbx
+  artifactKey: Guid(8391a79130c9ab343a9abe34d47fabab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Room.fbx using Guid(8391a79130c9ab343a9abe34d47fabab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca3cb2235c1cbd52438acb441cc450') in 0.027426 seconds
+  Import took 0.029696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Overworld/Models & Animations/Scroll.fbx
+  artifactKey: Guid(0ff8cd81d2450b94ca2251b4f19c42a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Scroll.fbx using Guid(0ff8cd81d2450b94ca2251b4f19c42a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11832089e8117420b21e53d1d132186a') in 0.022150 seconds
+  Import took 0.024611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Overworld/Models & Animations/Book.fbx
+  artifactKey: Guid(56d96cdc28e4f1c4699e3c0d0dd62ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Book.fbx using Guid(56d96cdc28e4f1c4699e3c0d0dd62ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0a746ec3fa95a73ee5e4a7c2f637d6') in 0.023816 seconds
+  Import took 0.025957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Normal_OpenGL.png
+  artifactKey: Guid(f8e6d8c26cd48384faa0ca6aaf957aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Normal_OpenGL.png using Guid(f8e6d8c26cd48384faa0ca6aaf957aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4d9d8b054ee0633c10faf2bc80c090') in 0.010882 seconds
+  Import took 0.012944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Overworld/Models & Animations/Bed Updated.fbx
+  artifactKey: Guid(799fea9e722f05c4c96918e6f3dfad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Bed Updated.fbx using Guid(799fea9e722f05c4c96918e6f3dfad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565da41a61ccac79697534f88bdb4095') in 0.040951 seconds
+  Import took 0.043556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Normal 1.png
+  artifactKey: Guid(d0b961f02a758c4499c02c545e6e3b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Normal 1.png using Guid(d0b961f02a758c4499c02c545e6e3b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9ad992f77f0271b8e8505525f033c2') in 0.014518 seconds
+  Import took 0.016577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Base_Color.png
+  artifactKey: Guid(3f94aaa497e96b249a5ce0731b6e5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Base_Color.png using Guid(3f94aaa497e96b249a5ce0731b6e5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa391a701dd0db0a1ba1ded7be924a') in 0.010368 seconds
+  Import took 0.012413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Height.png
+  artifactKey: Guid(8d6ede84abc51ae4898ade98838715f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Height.png using Guid(8d6ede84abc51ae4898ade98838715f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c731ee2f559b1bbeb63b7218eec59f83') in 0.011202 seconds
+  Import took 0.013484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Overworld/Models & Animations/DestrucablePot.prefab
+  artifactKey: Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/DestrucablePot.prefab using Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca8c5e39d1a38a8fa549b38284bf439') in 0.013173 seconds
+  Import took 0.015523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Normal_OpenGL.png
+  artifactKey: Guid(64d1dc86bc026cc45a1f0717413da284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Normal_OpenGL.png using Guid(64d1dc86bc026cc45a1f0717413da284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6806964398f955e2e447d9d9109ce12') in 0.011434 seconds
+  Import took 0.014514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Normal_OpenGL.png
+  artifactKey: Guid(7e2671a0bda83cc4bb572009f40e999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Normal_OpenGL.png using Guid(7e2671a0bda83cc4bb572009f40e999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eac7ba3205f5f1ba7fd2523420eb31') in 0.010989 seconds
+  Import took 0.013581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Overworld/Models & Animations/tree_03.fbx
+  artifactKey: Guid(e1b69ca3d3cb8904fa67ae5751f61b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_03.fbx using Guid(e1b69ca3d3cb8904fa67ae5751f61b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65a27cbb8aae216d08659955a575bb9') in 0.018868 seconds
+  Import took 0.021089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Metallic.png
+  artifactKey: Guid(f46f4e727146e63498bfe7a0f7fd426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Metallic.png using Guid(f46f4e727146e63498bfe7a0f7fd426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49b7e053203b481cce3fc99bf3aab07') in 0.010138 seconds
+  Import took 0.012414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Overworld/Models & Animations/tree_lambert2_Normal.png
+  artifactKey: Guid(81977250b7573bf4d9bb736b2f120b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_lambert2_Normal.png using Guid(81977250b7573bf4d9bb736b2f120b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326a80a598e8e61013c42780000e077c') in 0.012953 seconds
+  Import took 0.015309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Base_Color.png
+  artifactKey: Guid(d181e4bc6929b714d83281caddb8ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Base_Color.png using Guid(d181e4bc6929b714d83281caddb8ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595af0cb7a3ceff4ee33779e990302fa') in 0.011648 seconds
+  Import took 0.014085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Overworld/Models & Animations/ShatterPot.prefab
+  artifactKey: Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/ShatterPot.prefab using Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162a1d776d04bd7bc7891327929c083c') in 0.013329 seconds
+  Import took 0.015868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinAttack 1.fbx
+  artifactKey: Guid(dbcaf9a2b0017af4294759be84147ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinAttack 1.fbx using Guid(dbcaf9a2b0017af4294759be84147ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f3b5b4035b0986d1631c123b5024e9') in 0.028394 seconds
+  Import took 0.031429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Overworld/Models & Animations/tree_02.fbx
+  artifactKey: Guid(06df0a9c96ef6a44cb12c3b9425a3209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_02.fbx using Guid(06df0a9c96ef6a44cb12c3b9425a3209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f09e1e4297ee5d0c461730d4486e27') in 0.017621 seconds
+  Import took 0.019835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Overworld/Models & Animations/tree_lambert2_SpecularSmoothness.png
+  artifactKey: Guid(a54e5492170499b488b04e16c79e93f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_lambert2_SpecularSmoothness.png using Guid(a54e5492170499b488b04e16c79e93f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a62bcb82785c5aade2fe01198a0091') in 0.012064 seconds
+  Import took 0.014373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinBattleStagger.fbx
+  artifactKey: Guid(89b059326e701ed4982009c068d936f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinBattleStagger.fbx using Guid(89b059326e701ed4982009c068d936f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ed0f71f7d58586dfcc746437e39e5b') in 0.027226 seconds
+  Import took 0.029730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_solid_thick.fbx
+  artifactKey: Guid(ba84d7ae8071f954e81892d382ba7ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_solid_thick.fbx using Guid(ba84d7ae8071f954e81892d382ba7ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c711cac232ee6ab61b287e83b2e0ef') in 0.019044 seconds
+  Import took 0.021386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.004184 seconds.
+  path: Assets/Overworld/Models & Animations/Mat_Tree.mat
+  artifactKey: Guid(a501d057fc722c740b71063d27005dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mat_Tree.mat using Guid(a501d057fc722c740b71063d27005dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287f8ce856e1a9b37af17e2b76940496') in 0.013362 seconds
+  Import took 0.016175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.613831 seconds.
+  path: Assets/SlimUI/Modern Menu 1/Graphics/Wide1.png
+  artifactKey: Guid(62ce455bb011baf4ba72fa737ce1d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlimUI/Modern Menu 1/Graphics/Wide1.png using Guid(62ce455bb011baf4ba72fa737ce1d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999fd507d2d7810de7530b8eb5d1219b') in 0.030605 seconds
+  Import took 0.033454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SlimUI/Modern Menu 1/Graphics/New/Wide_Mono.png
+  artifactKey: Guid(2323cb669376e8c449c3c32670900315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlimUI/Modern Menu 1/Graphics/New/Wide_Mono.png using Guid(2323cb669376e8c449c3c32670900315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150bb13d88cdb3cd4060180862c98395') in 0.020407 seconds
+  Import took 0.023253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SlimUI/Modern Menu 1/Graphics/Wide1.png
+  artifactKey: Guid(62ce455bb011baf4ba72fa737ce1d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlimUI/Modern Menu 1/Graphics/Wide1.png using Guid(62ce455bb011baf4ba72fa737ce1d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999fd507d2d7810de7530b8eb5d1219b') in 0.013782 seconds
+  Import took 0.016281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SlimUI/Modern Menu 1/Graphics/New/Wide_Mono.png
+  artifactKey: Guid(2323cb669376e8c449c3c32670900315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlimUI/Modern Menu 1/Graphics/New/Wide_Mono.png using Guid(2323cb669376e8c449c3c32670900315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150bb13d88cdb3cd4060180862c98395') in 0.010114 seconds
+  Import took 0.012186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.824696 seconds.
+  path: Assets/Overworld/Models & Animations/tree_01.prefab
+  artifactKey: Guid(dff558473a7c75741876198db9075737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_01.prefab using Guid(dff558473a7c75741876198db9075737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e88c106c7ed61f7ae4d02d9a1b42c7b') in 0.011754 seconds
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.091218 seconds.
+  path: Assets/Overworld/Models & Animations/tree_03.prefab
+  artifactKey: Guid(56e9b55ffcd550644806e8bf19eb0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_03.prefab using Guid(56e9b55ffcd550644806e8bf19eb0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9ca0eab4830c84fa3c29193bf538f') in 0.014192 seconds
+  Import took 0.016837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 945.118827 seconds.
+  path: Assets/Overworld/Materials/BLACK.mat
+  artifactKey: Guid(98b032a8b1feb964f8dd79d0e4777674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Materials/BLACK.mat using Guid(98b032a8b1feb964f8dd79d0e4777674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb793e8e90ee5e1df3b9761cdb8659c7') in 0.016178 seconds
+  Import took 0.019019 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000715 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000017E0D856020 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0F614100 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E07B25020 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0C108040 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E081FD010 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0D951030 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0CBC8010 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E07B25020 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0E1EEB00 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E07AA5020 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0D726030 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0DA5D010 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E07E14030 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017E0802D3B0 doesn't match image C:\GameDev\Unity\2020.3.9\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 2.142500 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.887000 ms  DeleteObjects: 0.016900 ms)
+
