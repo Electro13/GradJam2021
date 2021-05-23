@@ -20,9 +20,20 @@ public class Destructable : MonoBehaviour
         Instantiate(destroyedPot, transform.position, transform.rotation);
         Destroy(gameObject);
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Sword")
+        {
+            Instantiate(destroyedPot, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
+
+    }
     // Update is called once per frame
     void Update()
     {
 
+     
     }
 }

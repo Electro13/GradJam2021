@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
 - path: Assets/Scenes/OverworldTest.unity
-=======
-- path: Assets/Battle Scene/Battle Scene Testing.unity
->>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
