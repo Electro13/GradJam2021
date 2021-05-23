@@ -289,7 +289,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230, y: -38}
+  m_AnchoredPosition: {x: 155.2, y: -38}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110041340
@@ -492,7 +492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 387, y: 35}
+  m_AnchoredPosition: {x: 371.2, y: 35}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &398301644
@@ -623,8 +623,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -10.2, y: 0}
+  m_SizeDelta: {x: 57.0555, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420926248
 MonoBehaviour:
@@ -659,7 +659,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slam
+  m_Text: ShoulderBash
 --- !u!222 &420926249
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -808,7 +808,9 @@ MonoBehaviour:
   canSpinMove: 0
   heartRate: 0
   skills: 0
-  usableSkills: 00000000000000000000000000000000
+  usableSkills: 00000000020000000300000000000000
+  Fireball: {fileID: 1454564973479150, guid: 9a5b59a6d42f12946831287640f75b54, type: 3}
+  hand: {fileID: 2050367115}
 --- !u!4 &518312255
 Transform:
   m_ObjectHideFlags: 0
@@ -1300,7 +1302,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Iceball
+  m_Text: 'FireBall
+
+'
 --- !u!222 &990320731
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1589,7 +1593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 692839907}
-  playerFirstTurn: 0
+  playerFirstTurn: 1
   state: 0
   playerPosition: {fileID: 2095864312}
   enemyPositions:
@@ -1600,14 +1604,13 @@ MonoBehaviour:
   - {fileID: 1508592342}
   - {fileID: 860843143}
   enemyPrefabs:
-  - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
-  - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
-  - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
-  - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
-  - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
-  - {fileID: 2212831161766202997, guid: 2a2c0cfa84ed81e4890c45b1581df56b, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
   enemies: []
-  turnOrder: []
   roundNumber: 0
 --- !u!1 &1398667452
 GameObject:
@@ -1895,7 +1898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 387, y: -38}
+  m_AnchoredPosition: {x: 374.5, y: -38}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899038635
@@ -2028,7 +2031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230, y: 35}
+  m_AnchoredPosition: {x: 149.3, y: 35}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2007844454
@@ -2125,6 +2128,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007844452}
   m_CullTransparentMesh: 0
+--- !u!4 &2050367115 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2619101292728020138, guid: 2b2cd970e8d505444b8eeb22a69a8d3a, type: 3}
+  m_PrefabInstance: {fileID: 575485954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2095864311
 GameObject:
   m_ObjectHideFlags: 0

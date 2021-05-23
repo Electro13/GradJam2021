@@ -126,9 +126,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3673f02b3ef83b449b7b8fb8bfcee2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 10
-  currentHP: 0
+  maxHealth: 10
+  currentHealth: 10
   isDead: 0
+  strength: 1
+  potentialStrength: 0
+  canAttack: 1
+  attackType: 0
+  animator: {fileID: 0}
 --- !u!65 &1844465246540918593
 BoxCollider:
   m_ObjectHideFlags: 0
