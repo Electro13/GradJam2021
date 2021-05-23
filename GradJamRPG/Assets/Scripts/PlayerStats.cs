@@ -22,6 +22,8 @@ public class PlayerStats : Entity
 
     //public Weapon currentWeapon;
 
+    public GameObject Fireball;
+    public Transform hand;
 
     protected override void Start()
     {
@@ -33,6 +35,9 @@ public class PlayerStats : Entity
 
     public void CheckStatusEffects()
     {
+        canAttack = true;
+        potentialStrength = strength;
+
         foreach (Effect effect in currentEffects)
         {
             switch (effect.status)
@@ -112,8 +117,34 @@ public class PlayerStats : Entity
                     //Apply stun effect for 3 turns maybe do damage??
                     target.GiveStatusEffect(STATUSEFFECTS.Paralyzed, 3);
                     break;
+
                 case SKILLS.FireBall:
+                    animator.SetTrigger("cast");                 
+
+                    GameObject newFireball = Instantiate(Fireball, hand);
+                    yield return new WaitForSeconds(0.4f);
+
+                    newFireball.transform.parent = null;
+
+                    float mag = (newFireball.transform.position - target.transform.position).magnitude;
+                    int things = 0;
+
+                    while (things < 10)
+                    {
+                        float curMag = (newFireball.transform.position - target.transform.position).magnitude;
+                        curMag = Mathf.Abs(curMag - mag - 0.1f);
+
+                        newFireball.transform.position = Vector3.Lerp(newFireball.transform.position, target.transform.position + Vector3.up * 1f + Vector3.left * 1f, curMag/mag);
+                        things++;
+                        yield return new  WaitForSeconds(0.01f);
+                    }
+                    newFireball.GetComponent<Animator>().SetTrigger("explode");
+                    yield return new WaitForSeconds(0.4f);
+                    Destroy(newFireball);
+
+                    target.TakeDamage(6);
                     break;
+
                 case SKILLS.LightningBolt:
                     break;
             }
@@ -128,6 +159,8 @@ public class PlayerStats : Entity
     public override void TakeDamage(int dmg)
     {
         currentHealth += dmg;
+
+        animator.SetTrigger("stagger");
         if (currentHealth <= 0)
         {
             Die();

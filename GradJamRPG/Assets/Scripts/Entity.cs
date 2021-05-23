@@ -24,7 +24,7 @@ public class Entity : MonoBehaviour
     protected virtual void Start()
     {
         currentEffects = new List<Effect>();
-        isDead = true;
+        isDead = false;
     }
 
     public enum ATTACKTYPE
@@ -121,7 +121,7 @@ public class Entity : MonoBehaviour
         return maxHealth;
     }
 
-    private void Die()
+    protected void Die()
     {
         isDead = true;
     }   

@@ -27,22 +27,12 @@ public class TestBattleSystem : MonoBehaviour
     public GameObject[] enemyPrefabs;
     public List<EnemyStats> enemies;
 
-
-    public List<GameObject> turnOrder;
     public int roundNumber;
 
     void Start()
     {
         state = BattleState.START;
         roundNumber = 0;
-        
-        //Add enemies to scene and store their values
-        //for(int i = 0; i < enemyPrefabs.Length; i++)
-        //{
-        //   EnemyStats enemy = Instantiate(enemyPrefabs[i], enemyPositions[i]).GetComponent<EnemyStats>();
-
-        //   enemies.Add(enemy);
-        //}
 
         playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
 
@@ -139,24 +129,38 @@ public class TestBattleSystem : MonoBehaviour
 
                         enemy.CheckStatusEffects();
 
-                        dialogueText.text = "Opponent used Basic Attack #1";                        
-                        Vector3 targetLocation = playerPosition.position + Vector3.right * 3f + Vector3.down * 0.96f;
-                        enemy.transform.position = targetLocation;
-
-                        //Attack animation
-                        playerStats.TakeDamage(enemy.potentialStrength);
-
-                        yield return new WaitForSeconds(1f);
-
-                        if (playerStats.isDead)
+                        if (!enemy.canAttack)
                         {
-                            state = BattleState.LOST;
-                            //End the battle the player has lost
-                            EndBattle();
-                            break;
+                            //Paralyzed is the only giveable status rn
+                            dialogueText.text = "Opponent is " + enemy.currentEffects[0].status + "!";
+                            yield return new WaitForSeconds(1f);
+                        }
+                        else
+                        {
+
+                            dialogueText.text = "Opponent used Basic Attack";
+                            Vector3 targetLocation = playerPosition.position + Vector3.right * 3f + Vector3.down * 0.96f;
+                            enemy.transform.position = targetLocation;
+
+                            //Attack animation
+                            enemy.animator.SetTrigger("attack");
+                            yield return new WaitForSeconds(1f);
+                            playerStats.TakeDamage(enemy.potentialStrength);
+
+                            yield return new WaitForSeconds(1f);
+
+                            if (playerStats.isDead)
+                            {
+                                state = BattleState.LOST;
+                                //End the battle the player has lost
+                                EndBattle();
+                                break;
+                            }
+
+                            enemy.transform.position = enemyPositions[enemyNumber].position;
                         }
 
-                        enemy.transform.position = enemyPositions[enemyNumber].position;
+                        enemyNumber++;
                     }
 
                     //Reduce all effects on enemies
@@ -171,10 +175,14 @@ public class TestBattleSystem : MonoBehaviour
 
                     state = BattleState.PLAYERTURN;
                     break;
+
+
                 default:
                     battling = false;
                     break;
             }
+
+            yield return null;
         }
     }
 
@@ -257,8 +265,6 @@ public class TestBattleSystem : MonoBehaviour
 
     IEnumerator PlayerSkill(PlayerStats.SKILLS skillType)
     {
-        //Check the player's current status effect
-        playerStats.CheckStatusEffects();
         Debug.Log(playerStats.canAttack);
         //If the player can attack due to a status update
 
@@ -306,10 +312,13 @@ public class TestBattleSystem : MonoBehaviour
         Vector3 targetLocation = target.transform.position + Vector3.left * 3f + Vector3.up * 0.96f;
         Vector3 dir = (playerStats.transform.position - targetLocation).normalized;
 
-        while ((playerStats.transform.position - targetLocation).magnitude > 1f)
+        if (skillType != PlayerStats.SKILLS.FireBall)
         {
-            playerStats.transform.position = targetLocation;
-            yield return null;
+            while ((playerStats.transform.position - targetLocation).magnitude > 1f)
+            {
+                playerStats.transform.position = targetLocation;
+                yield return null;
+            }
         }
 
         StartCoroutine(playerStats.Skill(skillType, target));

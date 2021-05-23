@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class EnemyStats : Entity
 {
-    PlayerStats player;
-    
+    public TextMeshProUGUI healthText;
+    public int xp;
+
     public enum ATTACKPATTERN
     {
         Attack,
@@ -20,13 +22,25 @@ public class EnemyStats : Entity
         base.Start();
 
         currentHealth = maxHealth;
-        player = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
+
+        healthText.SetText(currentHealth.ToString());
     }
 
 
     public void Attack(int dmg, Entity target)
     {
        target.TakeDamage(dmg);
+    }
+
+    public override void TakeDamage(int damage)
+    {    
+        currentHealth -= damage;       
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+
+        healthText.SetText(currentHealth.ToString());
     }
 
     public void CheckStatusEffects()
