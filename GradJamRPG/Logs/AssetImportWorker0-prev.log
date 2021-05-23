@@ -15,11 +15,11 @@ C:/Users/mewf/Documents/GitHub/GradJam2021/GradJamRPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51560
+51639
 Successfully changed project path to: C:/Users/mewf/Documents/GitHub/GradJam2021/GradJamRPG
 C:/Users/mewf/Documents/GitHub/GradJam2021/GradJamRPG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,127 +35,1199 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001468 seconds.
+Registered in 0.001484 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
+- Completed reload, in  1.290 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000537 seconds.
+Registered in 0.000500 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B026AF7020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000224F67FE010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1FFB00A00 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000224F2896AD0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026AF7020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000224F285A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026AF7020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000224F285A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1FF7FD3B0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000224F1FDC080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B025EC9240 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000224F6EF8230 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026A47020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000224F737E010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026908E20 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000224F739D420 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026A47020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000224F6E2B010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1FFD43040 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000224F6E50E20 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026533A30 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000224F7608A20 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1FFE483F0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000224F7C6A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1FF7FD3B0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000224F2887430 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026A6CE30 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000224F739D420 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
+- Completed reload, in  0.637 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.8 MB.
-System memory in use after: 65.9 MB.
+Unloading 1331 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.9 MB.
+System memory in use after: 66.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 1.489400 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.277600 ms  DeleteObjects: 0.051000 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1775.
+Total: 1.328000 ms (FindLiveObjects: 0.101400 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.151400 ms  DeleteObjects: 0.039900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Enemy_Battle.cs
-  artifactKey: Guid(f8dca5c963b34c14d8d0378db47134ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy_Battle.cs using Guid(f8dca5c963b34c14d8d0378db47134ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ecb40cca04d6e8cbdc11a5273f089f') in 0.017786 seconds
-  Import took 0.019342 seconds .
+  path: Assets/TestBattleSystem.cs
+  artifactKey: Guid(feb043da7dbc85343994d44f5bcbd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestBattleSystem.cs using Guid(feb043da7dbc85343994d44f5bcbd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2562c17993c2f081fcd4d9f345ebda4') in 0.017264 seconds
+  Import took 0.018777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.083270 seconds.
+  path: Assets/Battle Scene/Models And Animations
+  artifactKey: Guid(d2316a57b307ab94f8e98763fa988600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Battle Scene/Models And Animations using Guid(d2316a57b307ab94f8e98763fa988600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9091572549ae037e8ebd6c8048c3ee4') in 0.006070 seconds
+  Import took 0.007927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.597043 seconds.
+  path: Assets/Overworld/Models & Animations/9c5086f4402e61b7bc348da6278ee49e.jpg
+  artifactKey: Guid(d4fb3c69988342c489025afa9e7b43de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/9c5086f4402e61b7bc348da6278ee49e.jpg using Guid(d4fb3c69988342c489025afa9e7b43de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc08c32b63e14a6f44cf4d03067e55e') in 0.070038 seconds
+  Import took 0.071687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Normal_OpenGL.png
+  artifactKey: Guid(ee6e1e5154cbe0c4ba4299ea7dbe53ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Normal_OpenGL.png using Guid(ee6e1e5154cbe0c4ba4299ea7dbe53ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534efb38bbf1d8bdb8b3d0929830efc9') in 0.019473 seconds
+  Import took 0.020942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Metallic.png
+  artifactKey: Guid(39a13dd3b32952840b31c882d26088d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Metallic.png using Guid(39a13dd3b32952840b31c882d26088d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9818b09d972395eefe9f9859680119d') in 0.012673 seconds
+  Import took 0.014225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Overworld/Models & Animations/tree_01.fbx
+  artifactKey: Guid(cf57383c836689944828ed32374703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_01.fbx using Guid(cf57383c836689944828ed32374703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4673a7a56085b65c75be896026e0d715') in 0.104261 seconds
+  Import took 0.105805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Base_Color.png
+  artifactKey: Guid(f2aed4d72f62dbb4c9041e80725f94a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Base_Color.png using Guid(f2aed4d72f62dbb4c9041e80725f94a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af9bd6894f5f39d53118568981aa08b') in 0.007677 seconds
+  Import took 0.009282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Base_Color.png
+  artifactKey: Guid(3a3969750b3ddfc4c97b1a262741b353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Base_Color.png using Guid(3a3969750b3ddfc4c97b1a262741b353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c57aa3a6c48fca28a724747cccbe25') in 0.013005 seconds
+  Import took 0.014626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_metallic.png
+  artifactKey: Guid(5bb0ec786fc345b4eaa4badf3086a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_metallic.png using Guid(5bb0ec786fc345b4eaa4badf3086a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62147c1e55ab5c75e80146494205cba3') in 0.012670 seconds
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Normal_OpenGL.png
+  artifactKey: Guid(1e0b0c9cb340e7347bd3a4f49fea72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Normal_OpenGL.png using Guid(1e0b0c9cb340e7347bd3a4f49fea72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bcd2c430d5f311e866850f7253a6e8') in 0.012905 seconds
+  Import took 0.014473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet.fbx
+  artifactKey: Guid(f7cc9833060a84c42b7723040e36f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet.fbx using Guid(f7cc9833060a84c42b7723040e36f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a346ec245cc0ac61d1ef9bb54e5867cd') in 0.031922 seconds
+  Import took 0.033485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinWalk.fbx
+  artifactKey: Guid(c22f4e98a8e75c6459f7f311b473cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinWalk.fbx using Guid(c22f4e98a8e75c6459f7f311b473cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aca9d19b2ad21d2f955d8ddaafdce0') in 0.062123 seconds
+  Import took 0.063964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Glossiness.png
+  artifactKey: Guid(7e23d1677930ec14e8561dd5a4c6afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Glossiness.png using Guid(7e23d1677930ec14e8561dd5a4c6afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496a77a1bedb6d5173f1e4ce9275ece4') in 0.001729 seconds
+  Import took 0.003032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_basecolor.png
+  artifactKey: Guid(f30d9b99bb8b8d645a4f9867b986ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_basecolor.png using Guid(f30d9b99bb8b8d645a4f9867b986ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6548d10ffbcbabce992f70a3ce61e9f') in 0.006579 seconds
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Glossiness 1.png
+  artifactKey: Guid(97d6bbc60bd4dd74a8c515546fe4fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Glossiness 1.png using Guid(97d6bbc60bd4dd74a8c515546fe4fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d20d5571b7ff7ada131961caac02a5c') in 0.029866 seconds
+  Import took 0.031422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Overworld/Models & Animations/Chair.fbx
+  artifactKey: Guid(484f3d6f5df3e5d468925d9f82a7f1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Chair.fbx using Guid(484f3d6f5df3e5d468925d9f82a7f1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962f5a300a7a04b82f91caaf1d7ae88b') in 0.043698 seconds
+  Import took 0.045243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Overworld/Models & Animations/MainCharacterEpicForce.fbx
+  artifactKey: Guid(3de5958590acb8f4d9c55fffe03df8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/MainCharacterEpicForce.fbx using Guid(3de5958590acb8f4d9c55fffe03df8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a94f2ef68914d816cf52df476db1b8') in 0.032729 seconds
+  Import took 0.034751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinRun.fbx
+  artifactKey: Guid(ff125c5c177588f419fbe86113b00ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinRun.fbx using Guid(ff125c5c177588f419fbe86113b00ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c8e5d4ba5863094b733d35409cfd51') in 0.023424 seconds
+  Import took 0.025302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Overworld/Models & Animations/goblin_diffuse.png
+  artifactKey: Guid(a21509165a82c9a4399cc9bdd5d61940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/goblin_diffuse.png using Guid(a21509165a82c9a4399cc9bdd5d61940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd4ed5370d824f26f3550e4cbb4eec7') in 0.010877 seconds
+  Import took 0.012431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Height.png
+  artifactKey: Guid(ef720ad9ff1239a498a01aaa3363611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Height.png using Guid(ef720ad9ff1239a498a01aaa3363611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b559c8e62f1880fe1947e9909f9324') in 0.007988 seconds
+  Import took 0.009525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_height.png
+  artifactKey: Guid(b5b6fc5b29f50db4085771c59e0faa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_height.png using Guid(b5b6fc5b29f50db4085771c59e0faa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363ad966606aa3cd006c69ae529ae6b4') in 0.015002 seconds
+  Import took 0.016566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Metallic.png
+  artifactKey: Guid(09c9ede72e4feb74d9d675b26a2a4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Metallic.png using Guid(09c9ede72e4feb74d9d675b26a2a4495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6b881318ef67f5f466d23e7e11ea1b') in 0.008373 seconds
+  Import took 0.009999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Overworld/Models & Animations/tree_lambert2_AlbedoTransparency.png
+  artifactKey: Guid(8217f69f83b58424a8856ca93872e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_lambert2_AlbedoTransparency.png using Guid(8217f69f83b58424a8856ca93872e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5fdaa208102ca293a06f68c2de597f') in 0.013896 seconds
+  Import took 0.015788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Overworld/Models & Animations/Carpet_normal.png
+  artifactKey: Guid(fa02c82ca2152864fa4750db05dbebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Carpet_normal.png using Guid(fa02c82ca2152864fa4750db05dbebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b509a9114aa4c57736bba659e1ebf0') in 0.010311 seconds
+  Import took 0.011906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Specular 1.png
+  artifactKey: Guid(419bb976f72fe2e4abfd30844a4807dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Specular 1.png using Guid(419bb976f72fe2e4abfd30844a4807dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3f6acd89bf0e1a84116446b9cbb48d') in 0.012189 seconds
+  Import took 0.013791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Height.png
+  artifactKey: Guid(b1f7008c18cace848b886c2870f3ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Height.png using Guid(b1f7008c18cace848b886c2870f3ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f305495454395dde9587f8775ee55c5') in 0.011759 seconds
+  Import took 0.013397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Metallic.png
+  artifactKey: Guid(ce9f06e1ef5065943b290e91b34f8ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Metallic.png using Guid(ce9f06e1ef5065943b290e91b34f8ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e52aa415e774bfac5032ba3df4fdc12') in 0.004580 seconds
+  Import took 0.006161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Diffuse 1.png
+  artifactKey: Guid(d6660a96188b7bb4486757edece28183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Diffuse 1.png using Guid(d6660a96188b7bb4486757edece28183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66a29529b9f39971496eba605c03a29') in 0.013040 seconds
+  Import took 0.014797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinRig.fbx
+  artifactKey: Guid(2b2cd970e8d505444b8eeb22a69a8d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinRig.fbx using Guid(2b2cd970e8d505444b8eeb22a69a8d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c6eca57c60fe3176ee78a242fd4c7d') in 0.041085 seconds
+  Import took 0.042957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Overworld/Models & Animations/Shelf.fbx
+  artifactKey: Guid(14b7c407baf1f7f4486aa2f0605ac9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Shelf.fbx using Guid(14b7c407baf1f7f4486aa2f0605ac9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf973556f019de2a6aac3ff99cb4d01') in 0.013608 seconds
+  Import took 0.015183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Overworld/Models & Animations/MainBossCharacterEpicForce.fbx
+  artifactKey: Guid(ed2c74b8c600e454bbfcedc0293ce73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/MainBossCharacterEpicForce.fbx using Guid(ed2c74b8c600e454bbfcedc0293ce73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bac0b0f6a96e2e78870c66b3039983') in 0.044306 seconds
+  Import took 0.046522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Base_Color.png
+  artifactKey: Guid(be27e9b186799de48a44eca869ec5631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Base_Color.png using Guid(be27e9b186799de48a44eca869ec5631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa58e7fdc62efa2c982cb86a3333637e') in 0.007595 seconds
+  Import took 0.009145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinBattleDoubleAttack.fbx
+  artifactKey: Guid(3b622305982fa9944a7f85f5acff9c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinBattleDoubleAttack.fbx using Guid(3b622305982fa9944a7f85f5acff9c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3191083100a145c54446fb4d60fdfc') in 0.029812 seconds
+  Import took 0.031715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinIdle.fbx
+  artifactKey: Guid(091d0bd4f14d5534eae96182fde2df45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinIdle.fbx using Guid(091d0bd4f14d5534eae96182fde2df45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78411912ec047e50b5d3fe17a17f5c2a') in 0.023171 seconds
+  Import took 0.025038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Overworld/Models & Animations/Coin.fbx
+  artifactKey: Guid(4fa81533432595844acae5770fde2d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Coin.fbx using Guid(4fa81533432595844acae5770fde2d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc1300ece7605ec15170d8c2989efd5') in 0.014920 seconds
+  Import took 0.016473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Overworld/Models & Animations/goblin_normal.png
+  artifactKey: Guid(1f2fffe491467ac40b025a8ae7913960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/goblin_normal.png using Guid(1f2fffe491467ac40b025a8ae7913960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d76e8e0999b053833c9f38efb01aff') in 0.013365 seconds
+  Import took 0.014982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Overworld/Models & Animations/Closet.fbx
+  artifactKey: Guid(509e8e476d59b144f8546a9f85a7ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Closet.fbx using Guid(509e8e476d59b144f8546a9f85a7ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd772a6824da70638b3ae51f0f94a52d2') in 0.017663 seconds
+  Import took 0.019271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Metallic.png
+  artifactKey: Guid(c528998ed905159458271dc5d1bd4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Metallic.png using Guid(c528998ed905159458271dc5d1bd4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353b6540a4ea0efb2db5c1b49cadd4f1') in 0.006406 seconds
+  Import took 0.007997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Overworld/Models & Animations/Sword.fbx
+  artifactKey: Guid(a57cb2c4105c7ff4e9240938ebcf5cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Sword.fbx using Guid(a57cb2c4105c7ff4e9240938ebcf5cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cb729a89b13136e5db6010707b7e7c') in 0.023259 seconds
+  Import took 0.024975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinBattleBash.fbx
+  artifactKey: Guid(c0d0612ac1535b641bae8213eca1b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinBattleBash.fbx using Guid(c0d0612ac1535b641bae8213eca1b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219499cdf37c2923970e0859e167eb26') in 0.031104 seconds
+  Import took 0.032967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Height.png
+  artifactKey: Guid(aa9f0464dda845b4eb20d83ab5bdc2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Height.png using Guid(aa9f0464dda845b4eb20d83ab5bdc2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b616e16822435cd77735ff4b2b408e') in 0.008037 seconds
+  Import took 0.009596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinAttack.fbx
+  artifactKey: Guid(7d46387f9a13b404cb67cdebf307d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinAttack.fbx using Guid(7d46387f9a13b404cb67cdebf307d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919e08dc257dafcf38ac1ee6fec268f9') in 0.028856 seconds
+  Import took 0.030873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Height.png
+  artifactKey: Guid(473534f1448fd764cb730341f451f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Height.png using Guid(473534f1448fd764cb730341f451f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814c7435e185cbeec9db9df440fb033a') in 0.008636 seconds
+  Import took 0.010240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Overworld/Models & Animations/Desk.fbx
+  artifactKey: Guid(a2bd9b5d462766a48940db9a5b5a6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Desk.fbx using Guid(a2bd9b5d462766a48940db9a5b5a6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acef8da23f4b6f2b8a8df5c8ee05039') in 0.025058 seconds
+  Import took 0.026786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Diffuse.png
+  artifactKey: Guid(5efddff8672c30440b8f097f765c8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Diffuse.png using Guid(5efddff8672c30440b8f097f765c8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1953b088fd84b8aa33670a73d88d4fb') in 0.001930 seconds
+  Import took 0.003435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Overworld/Models & Animations/goblin_specular.png
+  artifactKey: Guid(9e6a2801ab42c374980efccbccb01b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/goblin_specular.png using Guid(9e6a2801ab42c374980efccbccb01b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6803540bda27dabb7e8f75555f7257d') in 0.010608 seconds
+  Import took 0.012163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Overworld/Models & Animations/Room.fbx
+  artifactKey: Guid(8391a79130c9ab343a9abe34d47fabab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Room.fbx using Guid(8391a79130c9ab343a9abe34d47fabab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef621fac4ecff554c4de414d219eba57') in 0.027363 seconds
+  Import took 0.029031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Overworld/Models & Animations/Scroll.fbx
+  artifactKey: Guid(0ff8cd81d2450b94ca2251b4f19c42a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Scroll.fbx using Guid(0ff8cd81d2450b94ca2251b4f19c42a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3136535fc08b483d255c5c94ee8e093') in 0.024112 seconds
+  Import took 0.025753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Overworld/Models & Animations/Book.fbx
+  artifactKey: Guid(56d96cdc28e4f1c4699e3c0d0dd62ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Book.fbx using Guid(56d96cdc28e4f1c4699e3c0d0dd62ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8606b72664990d9f03e5d6ad55cb252') in 0.017037 seconds
+  Import took 0.018623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Overworld/Models & Animations/Bed.fbx
+  artifactKey: Guid(70d06f3555b2b034d9ff08e085cccea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Bed.fbx using Guid(70d06f3555b2b034d9ff08e085cccea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a57b23a3618ebbcad2c14836f6d4e57') in 0.001859 seconds
+  Import took 0.003293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Normal_OpenGL.png
+  artifactKey: Guid(f8e6d8c26cd48384faa0ca6aaf957aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Normal_OpenGL.png using Guid(f8e6d8c26cd48384faa0ca6aaf957aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b7e3aa5202ecb6ead81b4d5ebda58e') in 0.008812 seconds
+  Import took 0.010431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Overworld/Models & Animations/Bed Updated.fbx
+  artifactKey: Guid(799fea9e722f05c4c96918e6f3dfad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Bed Updated.fbx using Guid(799fea9e722f05c4c96918e6f3dfad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e226fe737166756ff2967ce84a947ca') in 0.034325 seconds
+  Import took 0.035941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Normal 1.png
+  artifactKey: Guid(d0b961f02a758c4499c02c545e6e3b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Normal 1.png using Guid(d0b961f02a758c4499c02c545e6e3b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff225f043d9f5a701d41601be686ab6') in 0.010807 seconds
+  Import took 0.012366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Overworld/Models & Animations/Blanket_Base_Color.png
+  artifactKey: Guid(3f94aaa497e96b249a5ce0731b6e5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Blanket_Base_Color.png using Guid(3f94aaa497e96b249a5ce0731b6e5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31fe4512b7159824846dc84d5c9dfc') in 0.009051 seconds
+  Import took 0.010681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Overworld/Models & Animations/Floor_Height.png
+  artifactKey: Guid(8d6ede84abc51ae4898ade98838715f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Floor_Height.png using Guid(8d6ede84abc51ae4898ade98838715f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3011e4af55e68e53ffeb98b8b6c274c0') in 0.005153 seconds
+  Import took 0.006778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Overworld/Models & Animations/Wood_Normal_OpenGL.png
+  artifactKey: Guid(64d1dc86bc026cc45a1f0717413da284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wood_Normal_OpenGL.png using Guid(64d1dc86bc026cc45a1f0717413da284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22802fc6869caf2b8eb0a9047be0383d') in 0.007592 seconds
+  Import took 0.009162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Specular.png
+  artifactKey: Guid(83638ec130cd9cf4d832ea7ff354a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Specular.png using Guid(83638ec130cd9cf4d832ea7ff354a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e563675e62e63563b432404c8cadaaa8') in 0.001848 seconds
+  Import took 0.003314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Normal_OpenGL.png
+  artifactKey: Guid(7e2671a0bda83cc4bb572009f40e999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Normal_OpenGL.png using Guid(7e2671a0bda83cc4bb572009f40e999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bace8d7e7b99f4a7b3748c6f5dc4b1') in 0.004821 seconds
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Overworld/Models & Animations/tree_03.fbx
+  artifactKey: Guid(e1b69ca3d3cb8904fa67ae5751f61b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_03.fbx using Guid(e1b69ca3d3cb8904fa67ae5751f61b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9e76f92cdfef2a373c3cb05ca1acbc') in 0.014701 seconds
+  Import took 0.016362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Overworld/Models & Animations/Wall_Metallic.png
+  artifactKey: Guid(f46f4e727146e63498bfe7a0f7fd426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Wall_Metallic.png using Guid(f46f4e727146e63498bfe7a0f7fd426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752c84d58dafdefc3b4fc8c6c6047e2b') in 0.007528 seconds
+  Import took 0.009167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Overworld/Models & Animations/Ch19_1001_Normal.png
+  artifactKey: Guid(0f7064d4c616495449448b19e65c9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Ch19_1001_Normal.png using Guid(0f7064d4c616495449448b19e65c9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3800986fa5fa8775b57a64862c99bee0') in 0.001752 seconds
+  Import took 0.003215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Overworld/Models & Animations/tree_lambert2_Normal.png
+  artifactKey: Guid(81977250b7573bf4d9bb736b2f120b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_lambert2_Normal.png using Guid(81977250b7573bf4d9bb736b2f120b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001713a4784ce5f645d74118f8697141') in 0.008371 seconds
+  Import took 0.009947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Overworld/Models & Animations/Mattress_Pillow_Base_Color.png
+  artifactKey: Guid(d181e4bc6929b714d83281caddb8ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Mattress_Pillow_Base_Color.png using Guid(d181e4bc6929b714d83281caddb8ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece390e39c7fba4708dc68b29cbfbfb') in 0.007855 seconds
+  Import took 0.009665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinAttack 1.fbx
+  artifactKey: Guid(dbcaf9a2b0017af4294759be84147ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinAttack 1.fbx using Guid(dbcaf9a2b0017af4294759be84147ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d624707184674579a41b9b7c52faaf7') in 0.022930 seconds
+  Import took 0.024833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Overworld/Models & Animations/tree_02.fbx
+  artifactKey: Guid(06df0a9c96ef6a44cb12c3b9425a3209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_02.fbx using Guid(06df0a9c96ef6a44cb12c3b9425a3209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66b90f070652b7e5d5cd2f6d9e0ece2') in 0.013145 seconds
+  Import took 0.014696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Overworld/Models & Animations/tree_lambert2_SpecularSmoothness.png
+  artifactKey: Guid(a54e5492170499b488b04e16c79e93f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/tree_lambert2_SpecularSmoothness.png using Guid(a54e5492170499b488b04e16c79e93f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2374ed8073bfa529251bf864bc81429a') in 0.008149 seconds
+  Import took 0.009808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Overworld/Models & Animations/GoblinBattleStagger.fbx
+  artifactKey: Guid(89b059326e701ed4982009c068d936f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/GoblinBattleStagger.fbx using Guid(89b059326e701ed4982009c068d936f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c90333fada7f18f757f615926d129b') in 0.024502 seconds
+  Import took 0.026421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.616006 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_shattered_thick.fbx
+  artifactKey: Guid(42e7f351bb53803409f3f81536b288a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_shattered_thick.fbx using Guid(42e7f351bb53803409f3f81536b288a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51d48c9706478feea929120d0c15908') in 0.049773 seconds
+  Import took 0.051587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013113 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_shattered_thick.fbx
+  artifactKey: Guid(42e7f351bb53803409f3f81536b288a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_shattered_thick.fbx using Guid(42e7f351bb53803409f3f81536b288a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51d48c9706478feea929120d0c15908') in 0.031570 seconds
+  Import took 0.033382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.496559 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_solid_thick.fbx
+  artifactKey: Guid(ba84d7ae8071f954e81892d382ba7ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_solid_thick.fbx using Guid(ba84d7ae8071f954e81892d382ba7ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136ff52325c1c6df2786a5265c01f610') in 0.015921 seconds
+  Import took 0.017698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028911 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_solid_thick.fbx
+  artifactKey: Guid(ba84d7ae8071f954e81892d382ba7ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_solid_thick.fbx using Guid(ba84d7ae8071f954e81892d382ba7ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136ff52325c1c6df2786a5265c01f610') in 0.014790 seconds
+  Import took 0.016599 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000500 seconds.
+Registered in 0.000469 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B1FFB049A0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-000002251C500500 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B02731C4C0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000224F9B5B0B0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B0273D8190 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000224F6DA3040 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B0273D8190 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000224F6DA3040 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1FF884460 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000224F2116010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B027730020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000224F2759030 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026506020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000224F6A5B010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B0273D8190 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000224F20C3010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026A47020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000224F285A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B027730020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000224F287FE20 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B027E3C030 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000224F2807050 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026A6CE30 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000224F209EE70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B026A6CE30 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000224F20970F0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B0273F81C0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000224F6E2B010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.7 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 1.291600 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.110900 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.084958 seconds.
+  path: Assets/Overworld/Models & Animations/Materials/Bed-Blanket.mat
+  artifactKey: Guid(f635f8fb94fdcb94e9c0cb70f1f9eeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Materials/Bed-Blanket.mat using Guid(f635f8fb94fdcb94e9c0cb70f1f9eeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c646413aa90836e58076da11f7d56fd') in 0.044532 seconds
+  Import took 0.046282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Overworld/Models & Animations/Materials/Ch19_1001_Diffuse.mat
+  artifactKey: Guid(bf0192d25c718904ca360674c5260c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Materials/Ch19_1001_Diffuse.mat using Guid(bf0192d25c718904ca360674c5260c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9d512a2b222a651ec8fed887a4924d') in 0.006003 seconds
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Overworld/Models & Animations/Materials/Bed-Cloth.mat
+  artifactKey: Guid(00bba8f6bd22d0c40ba3bce9e841be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Materials/Bed-Cloth.mat using Guid(00bba8f6bd22d0c40ba3bce9e841be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0b734b20b8ab9e2e219322e487255c') in 0.019200 seconds
+  Import took 0.020775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Overworld/Models & Animations/Materials/Bed-Wood.mat
+  artifactKey: Guid(c384bccd64f34174a9f0e396a74363d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Materials/Bed-Wood.mat using Guid(c384bccd64f34174a9f0e396a74363d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4279bbc0715d2b2cdb3992a3aeb25d') in 0.016483 seconds
+  Import took 0.018058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009746 seconds.
+  path: Assets/Overworld/Models & Animations/Materials/Bed-Wood.mat
+  artifactKey: Guid(c384bccd64f34174a9f0e396a74363d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/Materials/Bed-Wood.mat using Guid(c384bccd64f34174a9f0e396a74363d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4279bbc0715d2b2cdb3992a3aeb25d') in 0.012692 seconds
+  Import took 0.014395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.287765 seconds.
+  path: Assets/BlackCube.prefab
+  artifactKey: Guid(2a2c0cfa84ed81e4890c45b1581df56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackCube.prefab using Guid(2a2c0cfa84ed81e4890c45b1581df56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e45b20d074f4bcc0f243ffc0900790f') in 0.027546 seconds
+  Import took 0.029346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/ThirdPersonPlayer.prefab
+  artifactKey: Guid(f5770e3718de5174faaccca3454f9a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonPlayer.prefab using Guid(f5770e3718de5174faaccca3454f9a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c2b4f346017c0ee7b86a4feb14d284') in 0.008935 seconds
+  Import took 0.010531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/BlackCube.prefab
+  artifactKey: Guid(2a2c0cfa84ed81e4890c45b1581df56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackCube.prefab using Guid(2a2c0cfa84ed81e4890c45b1581df56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e45b20d074f4bcc0f243ffc0900790f') in 0.005936 seconds
+  Import took 0.007527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/ThirdPersonPlayer.prefab
+  artifactKey: Guid(f5770e3718de5174faaccca3454f9a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonPlayer.prefab using Guid(f5770e3718de5174faaccca3454f9a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c2b4f346017c0ee7b86a4feb14d284') in 0.005015 seconds
+  Import took 0.006650 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000490 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000224F2974D70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F761A320 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F212E010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F212E010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F99D30F0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F94EF3C0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6BDF010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F20C3010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F91D4630 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6EF8180 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F67D1E30 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F213EC70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F209EE70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F7E5F010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 1.198700 ms (FindLiveObjects: 0.112500 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.046900 ms  DeleteObjects: 0.009400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.431513 seconds.
+  path: Assets/Overworld/Destructable.cs
+  artifactKey: Guid(b89adb21b7e5ad9478dfcfb1f74f9ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Destructable.cs using Guid(b89adb21b7e5ad9478dfcfb1f74f9ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118f274a4e551c1814620ecb0df50c4f') in 0.006293 seconds
+  Import took 0.007874 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000482 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000224F723C020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2142C80 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F9583070 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F28B3020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2759030 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F95F6FF0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6C65010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F813B010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6EF8180 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6953020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F20970F0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F209EE70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F83DA010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.618 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 1.231400 ms (FindLiveObjects: 0.113000 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.064600 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.090834 seconds.
+  path: Assets/Overworld/OverworldScripts
+  artifactKey: Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts using Guid(e722070eee04103499b2b0032aa174f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c06109a31e09c614fc667566eefdf') in 0.007133 seconds
+  Import took 0.009123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.153297 seconds.
+  path: Assets/Destructable.cs
+  artifactKey: Guid(28e01a654d2839442888203a307843c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destructable.cs using Guid(28e01a654d2839442888203a307843c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8624aa234ca56dcf205bd09a42330b1') in 0.001609 seconds
+  Import took 0.003639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000224F723C020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F67CDE50 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251D455030 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2079010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F94EF3C0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F91685A0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6C65010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F285A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6AF1020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F87BBED0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F9249080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F209EE70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8FAE010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
+- Completed reload, in  0.595 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1309 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.3 MB.
-System memory in use after: 64.4 MB.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1777.
-Total: 1.309200 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.164800 ms  DeleteObjects: 0.009200 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 1.192000 ms (FindLiveObjects: 0.105400 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.048100 ms  DeleteObjects: 0.010000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000224F723C020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F95867E0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251DC10020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251CC5B020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8EBE010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F285A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251CC5B020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6953020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251D47D050 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F209EE70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F813B010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 1.234000 ms (FindLiveObjects: 0.109400 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.080100 ms  DeleteObjects: 0.009200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.812420 seconds.
-  path: Assets/Scripts/BattleSystem.cs
-  artifactKey: Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BattleSystem.cs using Guid(9c0a052f3b89c0a44add110779f2afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06e8c618de15431f4d31acf2d512386') in 0.006299 seconds
-  Import took 0.007786 seconds .
+  Time since last request: 63.924438 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_shattered_thick.prefab
+  artifactKey: Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_shattered_thick.prefab using Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aea9bdfbf2f948ea356a24fb0458d6d') in 0.053171 seconds
+  Import took 0.055056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.957093 seconds.
+  path: Assets/Overworld/Models & Animations/DestructablePot.prefab
+  artifactKey: Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/DestructablePot.prefab using Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4be4ed0ffa60193686e72312aea892') in 0.010014 seconds
+  Import took 0.011819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004466 seconds.
+  path: Assets/Overworld/Models & Animations/DestructablePot.prefab
+  artifactKey: Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/DestructablePot.prefab using Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4be4ed0ffa60193686e72312aea892') in 0.010531 seconds
+  Import took 0.012382 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000510 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002251CA22980 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F9A40060 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6E3B020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6E3B020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F7725090 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251D484F70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F95D5F00 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2889D10 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F91D4630 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F73B2010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6C0F030 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F921A6E0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2084D60 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8E90020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.257100 ms (FindLiveObjects: 0.113800 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.099900 ms  DeleteObjects: 0.010500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.387063 seconds.
+  path: Assets/Overworld/Models & Animations/claypot_solid_thick.prefab
+  artifactKey: Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/claypot_solid_thick.prefab using Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3a3845a8049d08bef4cf99a1c02266') in 0.043282 seconds
+  Import took 0.045113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.544306 seconds.
+  path: Assets/Overworld/Models & Animations/ShatterPot.prefab
+  artifactKey: Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/ShatterPot.prefab using Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3683968d9367fa6b7041357fe35c7be') in 0.011551 seconds
+  Import took 0.013416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004005 seconds.
+  path: Assets/Overworld/Models & Animations/ShatterPot.prefab
+  artifactKey: Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/ShatterPot.prefab using Guid(3531e787de7334f45a26b5a677733b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3683968d9367fa6b7041357fe35c7be') in 0.035517 seconds
+  Import took 0.037305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.894510 seconds.
+  path: Assets/Overworld/Models & Animations/DestrucablePot.prefab
+  artifactKey: Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/DestrucablePot.prefab using Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792159e2e44f4c8d2fb11692c88b9f30') in 0.010109 seconds
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008297 seconds.
+  path: Assets/Overworld/Models & Animations/DestrucablePot.prefab
+  artifactKey: Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/Models & Animations/DestrucablePot.prefab using Guid(1e98e08234a329544a5353b2d4b7cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792159e2e44f4c8d2fb11692c88b9f30') in 0.013644 seconds
+  Import took 0.015502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.117172 seconds.
+  path: Assets/Overworld/OverworldScripts/ThirdPersonMovement.cs
+  artifactKey: Guid(00f879ab9fad04741ad0b6383672c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts/ThirdPersonMovement.cs using Guid(00f879ab9fad04741ad0b6383672c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be5f0c6a36f5b45deb3e641cf4aeeb4') in 0.005886 seconds
+  Import took 0.007977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024935 seconds.
+  path: Assets/Overworld/OverworldScripts/ThirdPersonMovement.cs
+  artifactKey: Guid(00f879ab9fad04741ad0b6383672c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts/ThirdPersonMovement.cs using Guid(00f879ab9fad04741ad0b6383672c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be5f0c6a36f5b45deb3e641cf4aeeb4') in 0.001566 seconds
+  Import took 0.003270 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000572 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000224F2974D70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F9346CB0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F86F6820 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8286020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6AF1020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F95D5F00 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2889D10 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F9229070 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F73B2010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F87BBED0 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F7757090 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2084D60 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251D475040 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.247900 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.074500 ms  DeleteObjects: 0.010500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1052.462986 seconds.
+  path: Assets/Overworld/OverworldScripts/ThirdPersonMovement.cs
+  artifactKey: Guid(00f879ab9fad04741ad0b6383672c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overworld/OverworldScripts/ThirdPersonMovement.cs using Guid(00f879ab9fad04741ad0b6383672c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e31db50f4a4d2cc6ffcbe71ab4102f') in 0.002970 seconds
+  Import took 0.004413 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000509 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000224F2974D70 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F9A40060 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8A46080 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251D371020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2079010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F6AF1020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F95D5F00 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F85E1020 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F285A010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F73B2010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002251CA9B700 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F7757090 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F2084D60 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000224F8FAE010 doesn't match image C:\Users\mewf\Documents\GitHub\GradJam2021\GradJamRPG\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 1.304400 ms (FindLiveObjects: 0.106600 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.155300 ms  DeleteObjects: 0.010200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
