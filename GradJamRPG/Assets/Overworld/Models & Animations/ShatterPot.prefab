@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7183004016325181935}
   - component: {fileID: 5352003985937104034}
   - component: {fileID: 4716804431895258526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shard2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 2453697918021293286}
   - component: {fileID: 9146831247237119246}
   - component: {fileID: 5806861751721629989}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shard5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 5817943023829618316}
   - component: {fileID: 7460264415365749778}
   - component: {fileID: 6388103679159394536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shard4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 2964697498780399276}
   - component: {fileID: 2719506886481177955}
   - component: {fileID: 2795266636615380832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shard3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 7225349467584966126}
   - component: {fileID: 7227599132685324743}
   - component: {fileID: 7857043890572605818}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shard1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,9 @@ GameObject:
   - component: {fileID: 7680070819799723862}
   - component: {fileID: 406449607492497568}
   - component: {fileID: 2191601247088947963}
-  m_Layer: 0
+  - component: {fileID: 5734752354324446711}
+  - component: {fileID: 1800160322760102273}
+  m_Layer: 7
   m_Name: ShatterPot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,3 +634,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5734752354324446711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7052292958756877804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa2924cafb7e3c44b97438cac4ee4e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1800160322760102273
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7052292958756877804}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a86a72271f2c7984bb88feb5645ed703, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
