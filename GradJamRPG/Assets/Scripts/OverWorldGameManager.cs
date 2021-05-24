@@ -20,6 +20,7 @@ public class OverWorldGameManager : MonoBehaviour
     private void Start()
     {
         Physics.IgnoreLayerCollision(6, 6, true);
+        Physics.IgnoreLayerCollision(6, 7, true);
     }
 
     public IEnumerator StartBattle(OverworldAIController enemy, bool firstStrike, int damage) 
@@ -88,7 +89,6 @@ public class OverWorldGameManager : MonoBehaviour
 
 
         lastEnemy.Die();
-        lastEnemy.animator.SetTrigger("death");
     }
 
 

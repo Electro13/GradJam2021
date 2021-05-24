@@ -27,6 +27,7 @@ public class OverworldAIController : MonoBehaviour
     public GameObject[] encounteredEnemies;
 
     public bool isAlive;
+    public GameObject deathEffect;
 
     public enum States
     {
@@ -177,9 +178,18 @@ public class OverworldAIController : MonoBehaviour
     }
     public void Die()
     {
+        StartCoroutine(Death());
+    }
+
+    IEnumerator Death()
+    {
         animator.SetTrigger("death");
 
-        Destroy(gameObject, 2f);
+        yield return new WaitForSeconds(2f);
+
+        //Drop items
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmos()

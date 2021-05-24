@@ -25,6 +25,8 @@ public class PlayerStats : Entity
     public GameObject Fireball;
     public Transform hand;
 
+    public int gold;
+
     protected override void Start()
     {
         base.Start();

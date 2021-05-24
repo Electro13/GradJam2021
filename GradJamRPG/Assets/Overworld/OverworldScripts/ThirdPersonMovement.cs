@@ -15,9 +15,22 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public OverWorldGameManager gm;
 
-   
+    public bool isGrounded;
 
-   
+    private void FixedUpdate()
+    {
+        RaycastHit hit;
+        if(Physics.Raycast(transform.position, Vector3.down, out hit, 1.2f))
+        {
+            Debug.DrawRay(transform.position, Vector3.down * 1.2f, Color.blue);
+        }
+        else
+        {
+            transform.Translate(Vector3.down * 9.81f * Time.deltaTime);
+            Debug.DrawRay(transform.position, Vector3.down * 1.2f, Color.yellow);
+        }
+    }
+
     void Update()
     {
       
