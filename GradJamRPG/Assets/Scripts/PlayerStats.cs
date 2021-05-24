@@ -167,11 +167,6 @@ public class PlayerStats : Entity
         }
     }
 
-    private void Die()
-    {
-        isDead = true;
-    }
-
     public enum SKILLS
     {
         DoubleStrike,

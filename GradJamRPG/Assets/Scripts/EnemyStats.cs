@@ -37,6 +37,7 @@ public class EnemyStats : Entity
         currentHealth -= damage;       
         if (currentHealth <= 0)
         {
+            animator.SetTrigger("death");
             Die();
         }
 
