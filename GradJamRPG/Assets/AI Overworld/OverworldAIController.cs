@@ -24,6 +24,10 @@ public class OverworldAIController : MonoBehaviour
     Collider[] withinAggroColliders;
     bool aggroSearch = true;
 
+    public GameObject[] encounteredEnemies;
+
+    public bool isAlive;
+
     public enum States
     {
         IDLE,
@@ -41,6 +45,8 @@ public class OverworldAIController : MonoBehaviour
       animator.GetComponent<Animator>();
         startingPosition = transform.position;
 
+        isAlive = true;
+
         StartCoroutine(StateHandling());
     }
 
@@ -49,7 +55,7 @@ public class OverworldAIController : MonoBehaviour
     //If there is start chasing the player
     private void FixedUpdate()
     {
-        if (aggroSearch)
+        if (aggroSearch && isAlive)
         {
             withinAggroColliders = Physics.OverlapSphere(transform.position, attackRange, aggroLayerMask);
             if (withinAggroColliders.Length > 0)
@@ -71,7 +77,7 @@ public class OverworldAIController : MonoBehaviour
     //Core loop that handles all AI movements
     IEnumerator StateHandling()
     {
-        while(true) 
+        while(isAlive) 
         {
             switch (state)
             {
@@ -102,21 +108,23 @@ public class OverworldAIController : MonoBehaviour
                     {
                         agent.destination = targetLocation;
                         state = States.WALKING;
-
                         //Set WALKING aniamtion
+                        animator.SetBool("isWalking", true);
                     }
                     break;
 
                 case States.WALKING:
                     //If we reach destination switch to idle
                     if (transform.position.x == targetLocation.x && transform.position.z == targetLocation.z)
+                    {
                         state = States.IDLE;
-
+                        animator.SetBool("isWalking", false);
+                    }
                     break;
 
                 //When player is in sight pathfind to the player
                 case States.CHASING:
-
+                    animator.SetBool("isWalking", true);
                     //Pathfind to target
                     agent.destination = targetPlayer.position;
 
@@ -128,6 +136,7 @@ public class OverworldAIController : MonoBehaviour
                 //If player leaves the attackrange, enemy should look around for a second or two before returning to its original position
                 case States.SEARCHING:
 
+                    animator.SetBool("isWalking", false);
                     yield return new WaitForFixedUpdate();
 
                     //Enable aggro
@@ -165,6 +174,12 @@ public class OverworldAIController : MonoBehaviour
             return FindNewLocation();        
 
         return true;
+    }
+    public void Die()
+    {
+        animator.SetTrigger("death");
+
+        Destroy(gameObject, 2f);
     }
 
     private void OnDrawGizmos()

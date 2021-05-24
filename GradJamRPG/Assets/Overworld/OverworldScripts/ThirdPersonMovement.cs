@@ -13,6 +13,8 @@ public class ThirdPersonMovement : MonoBehaviour
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
+    public OverWorldGameManager gm;
+
    
 
    
@@ -36,8 +38,15 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
 
 
-        }
-           
+        }          
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag.Equals("Enemy"))
+        {
+            StartCoroutine(gm.StartBattle(other.GetComponent<OverworldAIController>(), false, 0));
+        }
     }
 }

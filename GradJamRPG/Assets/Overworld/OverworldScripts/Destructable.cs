@@ -15,14 +15,17 @@ public class Destructable : MonoBehaviour
     }
 
 
-    void OnMouseDown()
+    public void Break()
     {
         Instantiate(destroyedPot, transform.position, transform.rotation);
         Destroy(gameObject);
     }
-    // Update is called once per frame
-    void Update()
-    {
 
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag.Equals("sword")){
+            Break();
+        }
     }
 }
