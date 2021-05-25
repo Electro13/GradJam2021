@@ -401,6 +401,10 @@ public class TestBattleSystem : MonoBehaviour
         StartCoroutine(PlayerSkill((PlayerStats.SKILLS)playerStats.usableSkills[skill]));
     }
 
+    public void GameOver()
+    {
+
+    }
 
 
 
