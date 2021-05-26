@@ -1181,7 +1181,10 @@ MonoBehaviour:
   potentialStrength: 0
   canAttack: 1
   attackType: 0
+  effectUI: []
+  statusEffectIcons: []
   animator: {fileID: 575485959}
+  ParalyzedEffect: {fileID: 0}
   endTurn: 0
   canDoubleStrike: 0
   canFireball: 0
@@ -1192,6 +1195,7 @@ MonoBehaviour:
   usableSkills: 00000000020000000300000000000000
   Fireball: {fileID: 1454564973479150, guid: 9a5b59a6d42f12946831287640f75b54, type: 3}
   hand: {fileID: 2050367115}
+  gold: 0
 --- !u!4 &518312255
 Transform:
   m_ObjectHideFlags: 0
@@ -1988,7 +1992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 100}
+  m_AnchoredPosition: {x: -272, y: 100}
   m_SizeDelta: {x: 812, y: 181.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273629049
@@ -2258,7 +2262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb043da7dbc85343994d44f5bcbd65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 0}
   dialogueText: {fileID: 692839907}
+  playerStats: {fileID: 518312253}
   playerFirstTurn: 1
   state: 0
   playerPosition: {fileID: 2095864312}
@@ -2271,8 +2277,10 @@ MonoBehaviour:
   - {fileID: 860843143}
   enemyPrefabs:
   - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
+  - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
   enemies: []
   roundNumber: 0
+  DebugMode: 1
 --- !u!1 &1350086088
 GameObject:
   m_ObjectHideFlags: 0
