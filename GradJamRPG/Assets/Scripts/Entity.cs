@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Entity : MonoBehaviour
 {
@@ -17,9 +18,13 @@ public class Entity : MonoBehaviour
     public ATTACKTYPE attackType;
 
     public List<Effect> currentEffects;
+    public StatusEffectPanel[] effectUI;
 
+    public Image[] statusEffectIcons;
 
     public Animator animator;
+
+    public GameObject ParalyzedEffect;
 
     protected virtual void Start()
     {
@@ -41,7 +46,10 @@ public class Entity : MonoBehaviour
         NightmareDisorder,
         Insomnia,
         Paralyzed,
-        Burning
+        Burning,
+        Poisoned,
+        Adrenaline,
+        Fear
     }
 
     public struct Effect
@@ -89,11 +97,18 @@ public class Entity : MonoBehaviour
             if (currentEffects[i].status.Equals(newEffect.status))
             {
                 currentEffects[i] += newEffect;
+                effectUI[i].Set(currentEffects[i].amount);
+                effectUI[i].status = currentEffects[i];
                 return;
             }
         }
 
         currentEffects.Add(newEffect);
+
+        int index = currentEffects.IndexOf(newEffect);
+        effectUI[index].SetImage(statusEffectIcons[0]);
+        effectUI[index].Set(amount);
+        effectUI[index].status = newEffect;
     }
 
     public void ReduceAllEffects()
@@ -102,11 +117,73 @@ public class Entity : MonoBehaviour
         {
             //looks weird but this reduces the duration of the effect by 1
             currentEffects[i] -= 1;
+            effectUI[i].Set(currentEffects[i].amount);
+            effectUI[i].status = currentEffects[i];
 
             //If the duration is 0 or less remove the debuff
             if(currentEffects[i].amount <= 0)
             {
                 currentEffects.Remove(currentEffects[i]);
+                effectUI[i].status.status = STATUSEFFECTS.None;
+            }
+        }
+    }
+
+    public void CheckStatusEffects()
+    {
+        canAttack = true;
+        potentialStrength = strength;
+
+        foreach (Effect effect in currentEffects)
+        {
+            switch (effect.status)
+            {
+                case STATUSEFFECTS.None:
+                    break;
+
+                case STATUSEFFECTS.Narcolepsy:
+                    // debug youre asleep!
+                    canAttack = false;
+                    break;
+
+                case STATUSEFFECTS.RestlessLeg:
+                    canAttack = false;
+                    break;
+
+                case STATUSEFFECTS.NightmareDisorder:
+                    break;
+
+                case STATUSEFFECTS.Insomnia:
+                    break;
+
+                case STATUSEFFECTS.Paralyzed:
+                    canAttack = false;
+                    Instantiate(ParalyzedEffect, transform.position + Vector3.left * 1, Quaternion.identity);
+                    break;
+                case STATUSEFFECTS.Fear:
+                    potentialStrength = Mathf.RoundToInt(potentialStrength * 0.2f);
+                    break;                
+            }
+        }
+    }
+
+    void OrderEffects()
+    {
+        foreach(Effect effect in currentEffects)
+        {
+
+        }
+    }
+
+    public void CheckPostStatusEffects()
+    {
+        foreach (Effect effect in currentEffects)
+        {
+            switch (effect.status)
+            {
+                case STATUSEFFECTS.Adrenaline:
+                    potentialStrength += effect.amount;
+                    break;
             }
         }
     }

@@ -31,6 +31,16 @@ public class TestBattleSystem : MonoBehaviour
 
     public int roundNumber;
 
+    public bool DebugMode;
+
+    private void Start()
+    {
+        if(DebugMode)
+        {
+            StartCoroutine(SetupBattle(0));
+        }
+    }
+
     public IEnumerator SetupBattle()
     {
         roundNumber = 0;
@@ -42,6 +52,7 @@ public class TestBattleSystem : MonoBehaviour
             EnemyStats enemy = Instantiate(enemyPrefabs[i], enemyPositions[i].position, Quaternion.Euler(0, -90, 0)).GetComponent<EnemyStats>();
 
             enemies.Add(enemy);
+            enemy.position = enemyPositions[i].position;
         }
 
         //Update the battle message.
@@ -66,6 +77,7 @@ public class TestBattleSystem : MonoBehaviour
             EnemyStats enemy = Instantiate(enemyPrefabs[i], enemyPositions[i].position, Quaternion.Euler(0, -90, 0)).GetComponent<EnemyStats>();
 
             enemies.Add(enemy);
+            enemy.position = enemyPositions[i].position;
         }
 
         //Update the battle message.
@@ -173,7 +185,7 @@ public class TestBattleSystem : MonoBehaviour
                                 break;
                             }
 
-                            enemy.transform.position = enemyPositions[enemyNumber].position;
+                            enemy.transform.position = enemy.position;
                         }
 
                         enemyNumber++;
@@ -269,9 +281,7 @@ public class TestBattleSystem : MonoBehaviour
             if (enemy.isDead)
             {
                 enemies.Remove(enemy);
-
-                yield return new WaitForSeconds(2f);
-                Destroy(enemy.gameObject);
+                Destroy(enemy.gameObject, 2f);
             }
         }
 
@@ -353,7 +363,7 @@ public class TestBattleSystem : MonoBehaviour
             if (enemy.isDead)
             {
                 enemies.Remove(enemy);
-                Destroy(enemy.gameObject);
+                Destroy(enemy.gameObject, 2f);
             }
         }
 

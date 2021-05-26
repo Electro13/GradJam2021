@@ -6,6 +6,8 @@ using UnityEngine;
 public class EnemyStats : Entity
 {
     public TextMeshProUGUI healthText;
+    public Vector3 position;
+
     public int xp;
 
     public enum ATTACKPATTERN
@@ -42,34 +44,5 @@ public class EnemyStats : Entity
         }
 
         healthText.SetText(currentHealth.ToString());
-    }
-
-    public void CheckStatusEffects()
-    {
-        potentialStrength = strength;
-
-        foreach (Effect effect in currentEffects)
-        {
-            switch (effect.status)
-            {
-                case STATUSEFFECTS.None:
-                    break;
-
-                case STATUSEFFECTS.Narcolepsy:
-                    // debug youre asleep!
-                    canAttack = false;
-                    break;
-
-                case STATUSEFFECTS.RestlessLeg:
-                    canAttack = false;
-                    break;
-
-                case STATUSEFFECTS.Insomnia:
-                    break;
-                case STATUSEFFECTS.Paralyzed:
-                    canAttack = false;
-                    break;
-            }
-        }
     }
 }

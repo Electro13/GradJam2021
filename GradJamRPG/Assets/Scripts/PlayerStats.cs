@@ -35,40 +35,6 @@ public class PlayerStats : Entity
         currentHealth = maxHealth; //Will equal player prefs soon
     }
 
-    public void CheckStatusEffects()
-    {
-        canAttack = true;
-        potentialStrength = strength;
-
-        foreach (Effect effect in currentEffects)
-        {
-            switch (effect.status)
-            {
-                case STATUSEFFECTS.None:
-                    break;
-
-                case STATUSEFFECTS.Narcolepsy:
-                    // debug youre asleep!
-                    canAttack = false;
-                    break;
-
-                case STATUSEFFECTS.RestlessLeg:
-                    canAttack = false;
-                    break;
-
-                case STATUSEFFECTS.NightmareDisorder:
-                    heartRate = 10;
-                    break;
-
-                case STATUSEFFECTS.Insomnia:
-                    break;
-                case STATUSEFFECTS.Paralyzed:
-                    canAttack = false;
-                    break;
-            }
-        }
-    }
-
     public bool Attack(ATTACKTYPE attackType, EnemyStats target)
     {
         if (canAttack)
