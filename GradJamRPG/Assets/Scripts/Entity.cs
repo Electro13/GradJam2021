@@ -98,6 +98,7 @@ public class Entity : MonoBehaviour
             {
                 currentEffects[i] += newEffect;
                 effectUI[i].Set(currentEffects[i].amount);
+                effectUI[i].status = currentEffects[i];
                 return;
             }
         }
@@ -107,6 +108,7 @@ public class Entity : MonoBehaviour
         int index = currentEffects.IndexOf(newEffect);
         effectUI[index].SetImage(statusEffectIcons[0]);
         effectUI[index].Set(amount);
+        effectUI[index].status = newEffect;
     }
 
     public void ReduceAllEffects()
@@ -116,11 +118,13 @@ public class Entity : MonoBehaviour
             //looks weird but this reduces the duration of the effect by 1
             currentEffects[i] -= 1;
             effectUI[i].Set(currentEffects[i].amount);
+            effectUI[i].status = currentEffects[i];
 
             //If the duration is 0 or less remove the debuff
             if(currentEffects[i].amount <= 0)
             {
                 currentEffects.Remove(currentEffects[i]);
+                effectUI[i].status.status = STATUSEFFECTS.None;
             }
         }
     }
