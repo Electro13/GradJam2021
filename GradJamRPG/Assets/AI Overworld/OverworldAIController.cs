@@ -62,6 +62,7 @@ public class OverworldAIController : MonoBehaviour
             if (withinAggroColliders.Length > 0)
             {
                 animator.SetTrigger("Hop");
+                FindObjectOfType<AudioManager>().Play("EnemyNoise1");
                 targetPlayer = withinAggroColliders[0].transform;
                 state = States.CHASING;
 

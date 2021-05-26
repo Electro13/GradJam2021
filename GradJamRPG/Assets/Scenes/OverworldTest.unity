@@ -210,7 +210,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3055736}
-  m_LocalRotation: {x: 0.14253858, y: 0.000000008515345, z: -0.0000000012262865, w: 0.98978925}
+  m_LocalRotation: {x: 0.14253858, y: -0.000000008515345, z: 0.0000000012262865, w: 0.98978925}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11176,6 +11176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703008583}
   - component: {fileID: 703008584}
+  - component: {fileID: 703008585}
   m_Layer: 0
   m_Name: OverWorld Game Manager
   m_TagString: Untagged
@@ -11215,6 +11216,73 @@ MonoBehaviour:
   playerObject: {fileID: 1607223349}
   battleHud: {fileID: 1292663589}
   transitionAnim: {fileID: 462553335}
+--- !u!114 &703008585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703008582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa959ffaaf3d2a498d5505a93c342c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Bash
+    clip: {fileID: 8300000, guid: 100858c3f8ce078409f4297659e5ae2f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Fireball
+    clip: {fileID: 8300000, guid: ec005895d27c4254caf5ee1c51a68eb4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyNoise1
+    clip: {fileID: 8300000, guid: 4d0c7bfaacee6dd4aa7a572721806047, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyNoise1
+    clip: {fileID: 8300000, guid: a87a7e5dd55d1c5418375d9a8b549e3f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Heartbeat
+    clip: {fileID: 8300000, guid: 2643f479f6ef09f43aaac410de066f8b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: FastHeartbeat
+    clip: {fileID: 8300000, guid: 9d397efdb694c0e48968016bf5c4c479, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 1276901e1f539bf4bbee470931cf7dd9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SnooreIn
+    clip: {fileID: 8300000, guid: 1b06cf5925f24394c850b0aea2f72698, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!4 &704737662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7812319311377954412, guid: 5825e1980cc8ff0479890d024ec2bdb2, type: 3}
@@ -18350,7 +18418,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127174794}
-  m_LocalRotation: {x: 0.12451124, y: 0.000000032223607, z: -0.0000000040436685, w: 0.9922182}
+  m_LocalRotation: {x: 0.12451124, y: -0.000000032223607, z: 0.0000000040436685, w: 0.9922182}
   m_LocalPosition: {x: -62, y: 14.109232, z: -65.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -23424,7 +23492,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522073526}
-  m_LocalRotation: {x: 0.12451125, y: 0.000000012804364, z: -0.0000000016067909, w: 0.9922182}
+  m_LocalRotation: {x: 0.12451125, y: -0.000000012804362, z: 0.0000000016067907, w: 0.9922182}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -23920,6 +23988,7 @@ MonoBehaviour:
   - {fileID: 2212831161766202997, guid: 847a93fad9f078a4796905dec6b2b73f, type: 3}
   enemies: []
   roundNumber: 0
+  DebugMode: 0
 --- !u!4 &1551622549
 Transform:
   m_ObjectHideFlags: 0
@@ -26683,7 +26752,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702483198}
-  m_LocalRotation: {x: 0.10649046, y: 0.0000000042771338, z: -4.580787e-10, w: 0.9943138}
+  m_LocalRotation: {x: 0.10649046, y: -0.0000000042771364, z: 4.5807902e-10, w: 0.9943138}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

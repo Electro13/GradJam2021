@@ -82,13 +82,14 @@ public class PlayerStats : Entity
 
                 case SKILLS.ShoulderBash:
                     animator.SetTrigger("shoulderBash");
+                    FindObjectOfType<AudioManager>().Play("Bash");
                     //Apply stun effect for 3 turns maybe do damage??
                     target.GiveStatusEffect(STATUSEFFECTS.Paralyzed, 3);
                     break;
 
                 case SKILLS.FireBall:
-                    animator.SetTrigger("cast");                 
-
+                    animator.SetTrigger("cast");
+                    FindObjectOfType<AudioManager>().Play("Fireball");
                     GameObject newFireball = Instantiate(Fireball, hand);
                     yield return new WaitForSeconds(0.4f);
 
@@ -127,7 +128,7 @@ public class PlayerStats : Entity
     public override void TakeDamage(int dmg)
     {
         currentHealth += dmg;
-
+        FindObjectOfType<AudioManager>().Play("Hit");
         animator.SetTrigger("stagger");
         if (currentHealth <= 0)
         {
