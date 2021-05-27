@@ -1,13 +1,1 @@
-<<<<<<< Updated upstream
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":65.05096435546875,"y":23.25765037536621,"z":-63.822689056396487},"rotation":{"x":0.3448110520839691,"y":0.060775723308324817,"z":-0.02237671986222267,"w":0.9364376068115234},"size":10.0,"orthographic":false}
-=======
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":838.5278930664063,"y":284.90460205078127,"z":-16.7459716796875},"rotation":{"x":-0.04040738195180893,"y":0.13803918659687043,"z":-0.005636939778923988,"w":-0.9895880818367004},"size":378.8343811035156,"orthographic":false}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":22.07306671142578,"y":17.008020401000978,"z":291.58819580078127},"rotation":{"x":0.020680943503975869,"y":-0.03515266999602318,"z":-0.0006671388982795179,"w":-0.9992330074310303},"size":159.40621948242188,"orthographic":false}
->>>>>>> Stashed changes
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":65.05096435546875,"y":23.25765037536621,"z":-63.822689056396487},"rotation":{"x":0.3448110520839691,"y":0.060775723308324817,"z":-0.02237671986222267,"w":0.9364376068115234},"size":10.0,"orthographic":false}
->>>>>>> c5a4217fba2181de46d47e56d7e213f31bf0ff5c
->>>>>>> Stashed changes

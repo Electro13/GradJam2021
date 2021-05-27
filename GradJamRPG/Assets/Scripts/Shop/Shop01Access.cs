@@ -12,10 +12,9 @@ public class Shop01Access : MonoBehaviour
     public GameObject Item04Text;
     public GameObject ItemCompletion;
     public GameObject CompleteText;
-    public ThirdPersonMovement Player;
+
     void OnTriggerEnter()
     {
-        Player.enabled = false;
         ShopInventory.SetActive(true);
         Screen.lockCursor = false;
         GlobalShop.shopNumber = 1;
@@ -27,25 +26,25 @@ public class Shop01Access : MonoBehaviour
 
     public void Item01()
     {
-        ItemCompletion.SetActive(true);
+        ItemCompletion.SetActive(false);
         CompleteText.GetComponent<Text>().text = "Are you sure you want to buy " + GlobalShop.Item01 + "?";
     }
     
     public void Item02()
     {
-        ItemCompletion.SetActive(true);
+        ItemCompletion.SetActive(false);
         CompleteText.GetComponent<Text>().text = "Are you sure you want to buy " + GlobalShop.Item02 + "?";
     } 
     
     public void Item03()
     {
-        ItemCompletion.SetActive(true);
+        ItemCompletion.SetActive(false);
         CompleteText.GetComponent<Text>().text = "Are you sure you want to buy " + GlobalShop.Item03 + "?";
     }
     
     public void Item04()
     {
-        ItemCompletion.SetActive(true);
+        ItemCompletion.SetActive(false);
         CompleteText.GetComponent<Text>().text = "Are you sure you want to buy " + GlobalShop.Item04 + "?";
     }
 
