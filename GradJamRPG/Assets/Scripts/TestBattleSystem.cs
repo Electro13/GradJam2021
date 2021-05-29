@@ -33,6 +33,9 @@ public class TestBattleSystem : MonoBehaviour
 
     public bool DebugMode;
 
+    public Button[] skillButton;
+    public Button attackButton;
+
     private void Start()
     {
         if(DebugMode)
@@ -58,6 +61,9 @@ public class TestBattleSystem : MonoBehaviour
         //Update the battle message.
         dialogueText.text = "A new foe has appeared!";
 
+        SetSkills();
+        HideSkills();
+
 
         //Wait 2 seconds, and proceed to next sequence (Enumeration). Also updating current state.
         yield return new WaitForSeconds(2f);
@@ -82,6 +88,9 @@ public class TestBattleSystem : MonoBehaviour
 
         //Update the battle message.
         dialogueText.text = "A new foe has appeared!";
+
+        SetSkills();
+        HideSkills();
 
         yield return new WaitForSeconds(1f);
 
@@ -114,6 +123,8 @@ public class TestBattleSystem : MonoBehaviour
                     bool win = false;
                     playerStats.endTurn = false;
                     dialogueText.text = "Choose an action:";
+
+                    ShowSkills();
 
                     playerStats.CheckStatusEffects();
 
@@ -289,6 +300,7 @@ public class TestBattleSystem : MonoBehaviour
         dialogueText.text = "Attack landed";
         yield return new WaitForSeconds(2f);
 
+        ShowSkills();
 
         EndPlayerTurn();
     }
@@ -299,6 +311,8 @@ public class TestBattleSystem : MonoBehaviour
         //If the player can attack due to a status update
 
         EnemyStats target = null;
+
+        HideSkills();
 
         //Get target enemy unless there is only 1 remaining enemy
         if (enemies.Count > 1)
@@ -371,12 +385,55 @@ public class TestBattleSystem : MonoBehaviour
         dialogueText.text = "Attack landed";
         yield return new WaitForSeconds(2f);
 
+        ShowSkills();
+
         EndPlayerTurn();
+    }
+
+    /// <summary>
+    /// Sets the BattleSystems skill buttons to the correct skills the player has
+    /// </summary>
+    void SetSkills()
+    {
+        for(int i = 0; i < skillButton.Length; i++)
+        {
+            if(playerStats.usableSkills[i] >= 0)
+            {
+                skillButton[i].GetComponentInChildren<Text>().text = ((PlayerStats.SKILLS)playerStats.usableSkills[i]).ToString();
+                skillButton[i].GetComponent<BattleSkillInfo>().SetType((PlayerStats.SKILLS)playerStats.usableSkills[i]);
+                skillButton[i].interactable = true;
+            }
+            else
+            {
+                skillButton[i].GetComponentInChildren<Text>().text = "";
+                skillButton[i].interactable = false;
+            }
+        }
+    }
+
+    void ShowSkills()
+    {
+        foreach(Button b in skillButton)
+        {
+            b.gameObject.SetActive(true);
+        }
+
+        attackButton.gameObject.SetActive(true);
+    }
+    void HideSkills()
+    {
+        foreach (Button b in skillButton)
+        {
+            b.gameObject.SetActive(false);
+        }
+
+        attackButton.gameObject.SetActive(false);
     }
 
     void EndPlayerTurn()
     {
         playerStats.endTurn = true;
+        HideSkills();
     }
 
     void EndBattle()

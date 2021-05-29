@@ -27,6 +27,9 @@ public class PlayerStats : Entity
 
     public int gold;
 
+    public int maxEnergy;
+    public int energy;
+
     protected override void Start()
     {
         base.Start();

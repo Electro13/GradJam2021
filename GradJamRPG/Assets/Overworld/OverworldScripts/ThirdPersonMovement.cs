@@ -60,11 +60,18 @@ public class ThirdPersonMovement : MonoBehaviour
         if (other.tag.Equals("Enemy"))
         {
             StartCoroutine(gm.StartBattle(other.GetComponent<OverworldAIController>(), false, 0));
-        }
+        }        
+    }
 
-        if(other.tag.Equals("Item"))
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag.Equals("Item"))
         {
-
+            if (Input.GetKeyDown("e"))
+            {
+                print("picking up scroll");
+                other.GetComponent<Pickup>().Use(gm.battleSystem.playerStats);
+            }
         }
     }
 }

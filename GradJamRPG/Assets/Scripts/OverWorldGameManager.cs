@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class OverWorldGameManager : MonoBehaviour
 {
     public TestBattleSystem battleSystem;
+    public SwapSkillManager skillManager;
 
     public Camera overworldCamera;
     public Camera battleCamera;
@@ -94,8 +95,7 @@ public class OverWorldGameManager : MonoBehaviour
     public void SwapSkills(Scroll newSkill)
     {
         //Open Hud for skills -- chose skill to swap
-        FindObjectOfType<SwapSkillManager>().gameObject.SetActive(true);
-        FindObjectOfType<SwapSkillManager>().GetNewSkill(newSkill);        
+        skillManager.GetNewSkill(newSkill);        
     }
 
 
