@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,6 +26,7 @@ public class Entity : MonoBehaviour
     public Animator animator;
 
     public GameObject ParalyzedEffect;
+    public GameObject model;
 
     protected virtual void Start()
     {
@@ -40,16 +42,11 @@ public class Entity : MonoBehaviour
 
     public enum STATUSEFFECTS
     {
-        None,
-        Narcolepsy,
-        RestlessLeg,
-        NightmareDisorder,
-        Insomnia,
         Paralyzed,
-        Burning,
-        Poisoned,
+        Fear,
+        RestlessLeg,
         Adrenaline,
-        Fear
+        None
     }
 
     public struct Effect
@@ -98,7 +95,7 @@ public class Entity : MonoBehaviour
             {
                 currentEffects[i] += newEffect;
                 effectUI[i].Set(currentEffects[i].amount);
-                effectUI[i].status = currentEffects[i];
+                effectUI[i].effect = currentEffects[i];
                 return;
             }
         }
@@ -106,32 +103,38 @@ public class Entity : MonoBehaviour
         currentEffects.Add(newEffect);
 
         int index = currentEffects.IndexOf(newEffect);
-        effectUI[index].SetImage(statusEffectIcons[0]);
+        effectUI[index].SetImage(statusEffectIcons[Convert.ToInt32(statusEffect)]);
         effectUI[index].Set(amount);
-        effectUI[index].status = newEffect;
+        effectUI[index].effect = newEffect;
     }
 
     public void ReduceAllEffects()
     {
         for (int i = 0; i < currentEffects.Count; i++)
         {
+            if (currentEffects[i].status == STATUSEFFECTS.Adrenaline)
+                break;
+
             //looks weird but this reduces the duration of the effect by 1
             currentEffects[i] -= 1;
             effectUI[i].Set(currentEffects[i].amount);
-            effectUI[i].status = currentEffects[i];
+            effectUI[i].effect = currentEffects[i];
 
             //If the duration is 0 or less remove the debuff
             if(currentEffects[i].amount <= 0)
             {
                 currentEffects.Remove(currentEffects[i]);
-                effectUI[i].status.status = STATUSEFFECTS.None;
+                effectUI[i].effect.status = STATUSEFFECTS.None;
+
+                ReOrderEffects();
             }
-        }
+        }        
     }
 
     public void CheckStatusEffects()
     {
         canAttack = true;
+        int adrenaline = 0;
         potentialStrength = strength;
 
         foreach (Effect effect in currentEffects)
@@ -140,38 +143,39 @@ public class Entity : MonoBehaviour
             {
                 case STATUSEFFECTS.None:
                     break;
-
-                case STATUSEFFECTS.Narcolepsy:
-                    // debug youre asleep!
-                    canAttack = false;
-                    break;
-
-                case STATUSEFFECTS.RestlessLeg:
-                    canAttack = false;
-                    break;
-
-                case STATUSEFFECTS.NightmareDisorder:
-                    break;
-
-                case STATUSEFFECTS.Insomnia:
-                    break;
-
                 case STATUSEFFECTS.Paralyzed:
                     canAttack = false;
-                    Instantiate(ParalyzedEffect, transform.position + Vector3.left * 1, Quaternion.identity);
+                    Instantiate(ParalyzedEffect, model.transform.position + Vector3.down * 0.5f, Quaternion.identity);
                     break;
                 case STATUSEFFECTS.Fear:
-                    potentialStrength = Mathf.RoundToInt(potentialStrength * 0.2f);
-                    break;                
+                    potentialStrength = Mathf.RoundToInt(potentialStrength * 0.8f);
+                    break;
+                case STATUSEFFECTS.RestlessLeg:
+                    TakeDamage(effect.amount);
+                    break;
+                case STATUSEFFECTS.Adrenaline:
+                    adrenaline = effect.amount;
+                    break;       
             }
         }
+
+        potentialStrength += adrenaline;
     }
 
-    void OrderEffects()
+    void ReOrderEffects()
     {
-        foreach(Effect effect in currentEffects)
+        //Reset panels to nothing
+        foreach(StatusEffectPanel panel in effectUI)
         {
+            panel.Set(0);
+        }
 
+        //Re add effects to panel
+        for(int i = 0; i < currentEffects.Count; i++)
+        {
+            effectUI[i].SetImage(statusEffectIcons[Convert.ToInt32(currentEffects[i].status)]);
+            effectUI[i].Set(currentEffects[i].amount);
+            effectUI[i].effect = currentEffects[i];
         }
     }
 

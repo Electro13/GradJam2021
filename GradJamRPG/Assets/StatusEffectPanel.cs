@@ -9,7 +9,7 @@ public class StatusEffectPanel : MonoBehaviour
     public TextMeshProUGUI amountText;
     public Image image;
 
-    public Entity.Effect status;
+    public Entity.Effect effect;
     
     //public animator;
 
@@ -18,6 +18,7 @@ public class StatusEffectPanel : MonoBehaviour
         if (amount == 0)
         {
             amountText.SetText("");
+            image.color = new Color(0,0,0,0);
         }
         else
         {
@@ -35,9 +36,9 @@ public class StatusEffectPanel : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        if (status.status != Entity.STATUSEFFECTS.None)
+        if (effect.status != Entity.STATUSEFFECTS.None)
         {
-            string[] toolTipData = Tooltips.GetStatusTooltip(status.status, status.amount);
+            string[] toolTipData = Tooltips.GetStatusTooltip(effect.status, effect.amount);
             Tooltip.ShowTooltip_Static(toolTipData[0], toolTipData[1]);
         }
     }

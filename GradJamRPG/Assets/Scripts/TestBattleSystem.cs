@@ -168,7 +168,7 @@ public class TestBattleSystem : MonoBehaviour
 
                             dialogueText.text = "Opponent used Basic Attack";
                             Vector3 targetLocation = playerPosition.position + Vector3.right * 3f + Vector3.down * 0.96f;
-                            enemy.transform.position = targetLocation;
+                            enemy.model.transform.position = targetLocation;
 
                             //Attack animation
                             enemy.animator.SetTrigger("attack");
@@ -185,7 +185,7 @@ public class TestBattleSystem : MonoBehaviour
                                 break;
                             }
 
-                            enemy.transform.position = enemy.position;
+                            enemy.model.transform.position = enemy.position;
                         }
 
                         enemyNumber++;

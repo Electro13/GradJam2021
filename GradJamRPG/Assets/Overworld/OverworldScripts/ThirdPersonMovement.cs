@@ -61,5 +61,10 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             StartCoroutine(gm.StartBattle(other.GetComponent<OverworldAIController>(), false, 0));
         }
+
+        if(other.tag.Equals("Item"))
+        {
+
+        }
     }
 }

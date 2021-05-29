@@ -29,15 +29,15 @@ public class Tooltip : MonoBehaviour
     }
 
     private void ShowTooltip(string titleString, string tooltipString)
-    {
-        gameObject.SetActive(true);
-
+    { 
         tooltipText.text = tooltipString;
         titleText.text = titleString;
 
         float textPaddingSize = 6f;
-        Vector2 backgroundSize = new Vector2(tooltipText.renderedWidth + textPaddingSize * 2, tooltipText.renderedHeight + titleText.renderedHeight + textPaddingSize * 2.5f);
+        Vector2 backgroundSize = new Vector2(tooltipText.preferredWidth + textPaddingSize * 2, tooltipText.preferredHeight + titleText.preferredHeight + textPaddingSize * 2.5f);
         backgroundRectTransform.sizeDelta = backgroundSize;
+
+        gameObject.SetActive(true);
     }
 
     private void HideTooltip()

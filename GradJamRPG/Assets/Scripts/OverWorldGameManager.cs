@@ -91,7 +91,12 @@ public class OverWorldGameManager : MonoBehaviour
         lastEnemy.Die();
     }
 
-
+    public void SwapSkills(Scroll newSkill)
+    {
+        //Open Hud for skills -- chose skill to swap
+        FindObjectOfType<SwapSkillManager>().gameObject.SetActive(true);
+        FindObjectOfType<SwapSkillManager>().GetNewSkill(newSkill);        
+    }
 
 
 
