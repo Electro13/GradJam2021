@@ -28,6 +28,8 @@ public class OverworldAIController : MonoBehaviour
 
     public bool isAlive;
     public GameObject deathEffect;
+    public GameObject itemDrop1;
+    private Transform childPos;
 
     public enum States
     {
@@ -45,6 +47,7 @@ public class OverworldAIController : MonoBehaviour
           agent = GetComponent<NavMeshAgent>();
       animator.GetComponent<Animator>();
         startingPosition = transform.position;
+        childPos = this.gameObject.transform.GetChild(0).transform;
 
         isAlive = true;
 
@@ -191,6 +194,8 @@ public class OverworldAIController : MonoBehaviour
         //Drop items
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+
+        Instantiate(itemDrop1, childPos.transform.position, Quaternion.identity);
     }
 
     private void OnDrawGizmos()
